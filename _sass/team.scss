@@ -1,6 +1,7 @@
 .team-content {
   @include page-content();
   margin-bottom:100px;
+  color: #f00;
   @include media($small-display){
     margin-bottom: 0px;
   }
@@ -60,11 +61,12 @@
     margin-top: 1px;
     font-size: $page-content-font-size * 1.15;
     font-weight: 700;
-    color: #3476A0;
+    
     .dot {
       margin: 0px 1px 0 1px;
       padding-bottom: 0px;
     }
+    
     @include media($small-display) {
       display: none;
     }
@@ -160,7 +162,8 @@
   @extend .person-image;
   width: 70px;
   height: 70px;
-  margin-right: -10px;
+	float:left;
+	margin-right: 25px;
   margin-bottom: 25px;
   &.offset0 {
     margin-bottom: 75px;

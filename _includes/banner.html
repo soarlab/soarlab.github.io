@@ -1,34 +1,55 @@
 <div class="banner">
     <div class="home-image">
-        
         <div id="main-banner-image">
             <a class="banner-image" href="">
                 <img alt="" class="left-banner-image" src="{{ site.baseurl }}/assets/images/publications/"/>
                 <span id="left-banner-image-title" class="banner-image-title"></span>
             </a>
         </div>
-
-        <div id="top-right-banner-image">
-            <a class="banner-image" href="">
+		</div>
+    <div id="top-right-banner-image">
+            <!--<a class="banner-image" href="">
                 <span id="top-right-banner-image-title" class="banner-image-title"></span>
                 <img alt="" class="top-right-banner-image" src="{{ site.baseurl }}/assets/images/publications/">
-            </a>
-        </div>
-
+            </a>-->
+            <h1>Recent Publications</h1>
+	  	  
+	      		<ul class="publication-icon-list">
+              {% assign sorted_publications = site.publications | sort: 'year' %}
+            {% for publication in sorted_publications reversed %}
+            {% if publication.personal %}
+	          {% elsif publication.year > 2017 and publication.type == "paper" %}
+            <li>
+              <div style="padding-right: 1.5em;"><a href="{{ site.baseurl }}{{ publication.url }}">{{ publication.title }}</a></div>
+              <div style="margin-bottom: 5px;">
+              {% if publication.type == "thesis" %}
+                {{ publication.thesis_type }}, {{ publication.month }} {{ publication.year }}
+              {% else %}
+                {{publication.journal-short}}, {{publication.year}}
+              {% endif %}
+              </div>
+            </li>
+            {% endif %}
+	          {% endfor %}
+	      		</ul>
+    </div>
+				<!--
         <div id="bottom-right-banner-image">
             <a class="banner-image" href="">
                 <img alt="" class="bottom-right-banner-image" src="{{ site.baseurl }}/assets/images/publications/">
                 <span id="bottom-right-banner-image-title" class="banner-image-title"></span>
             </a>
         </div>
-
+        
+        , "#top-right-banner-image", "#bottom-right-banner-image"
+				-->
         <script>
             publications.sort(function () {
                 return .5 - Math.random();
             });
 
             var i = 0;
-            ["#main-banner-image", "#top-right-banner-image", "#bottom-right-banner-image"].forEach(function (id) {
+            ["#main-banner-image"].forEach(function (id) {
 
                 var pub = publications[i];
                 i++;
@@ -55,5 +76,4 @@
             });
 
         </script>
-    </div>
 </div>

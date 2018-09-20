@@ -35,19 +35,20 @@
 <div class="wrap">
 {% include header.html %}
     {% include banner.html %}
+	<div id="content-div-main">
+  	<article class="home-content-main">
 
-  <article class="home-content-main">
+  	<h1>About</h1>
+  	
+    <img alt="soarlab logo" id="central-page-logo" src="{{ site.baseurl }}/assets/images/logos/soarlablogo.png"/>
+    
+<span> SOARlab's research mission is to improve the reliability and resilience of complex software systems by empowering developers with practical tools and techniques for analysis of their artifacts. We are interested in any technique or method that supports our research mission, including but not limited to: extended static checking, automated theorem proving, model checking, and runtime verification. Currently, our emphasis is on highly automatic and scalable analysis techniques for software, in particular for concurrent software.</span>
+<br><br>
+<span>
+We are part of the School of Computing at the University of Utah.
+</span>
 
-  <h1>About</h1>
-
-
-      <p>We are a team of visualization researchers at the University of Utah. Our interests include the process of designing and developing visualizations, visualization for biology, visualization frameworks,  and, more generally, visualization of big, heterogeneous, and complex datasets. </p>
-      <p>VDL is part of the <a href="http://www.sci.utah.edu/">Scientific Computing and Imaging Institute</a> and the <a href="http://www.cs.utah.edu/">School of Computing</a>. </p>
-
-
-
-
-
+<!--
  <h1>News <span class="left-icon"><a href="{{ site.baseurl }}/feed.xml"><i class="fa fa-rss"></i></a></span></h1>
 
   <ul class="post-list">
@@ -65,43 +66,23 @@
     {% endfor %}
   </ul>
   <div class="all-news-link"><a href="news">See All News</a></div>
-  
+-->  
 
-  </article>
+</article>
 
-  <article class="home-content-aside">
+<article class="home-content-aside">
 
+<h1>Twitter</h1>
 
-	  <h1>Recent Publications</h1>
-	  	  
-	      <ul class="publication-icon-list">
-              {% assign sorted_publications = site.publications | sort: 'year' %}
-            {% for publication in sorted_publications reversed %}
-            {% if publication.personal %}
-	          {% elsif publication.year > 2017 and publication.type == "paper" %}
-            <li>
-              <div style="padding-right: 1.5em;"><a href="{{ site.baseurl }}{{ publication.url }}">{{ publication.title }}</a></div>
-              <div style="margin-bottom: 5px;">
-              {% if publication.type == "thesis" %}
-                {{ publication.thesis_type }}, {{ publication.month }} {{ publication.year }}
-              {% else %}
-                {{publication.journal-short}}, {{publication.year}}
-              {% endif %}
-              </div>
-            </li>
-            {% endif %}
-	          {% endfor %}
-	      </ul>
+<!--<a class="twitter-timeline" data-dnt="true" data-chrome="nofooter noborders noscrollbar transparent" height="206" data-tweet-limit="2" href="https://twitter.com/hashtag/soarlab" data-widget-id="626957158945390592">#soarlab</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+</script> -->
 
-      <h1>Twitter</h1>
+<a class="twitter-timeline" href="https://twitter.com/soarlab?ref_src=twsrc%5Etfw"> </a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-         <a class="twitter-timeline" data-lang="en" data-dnt="true" data-link-color="#3376A0" data-chrome="noheader, noborders, transparent" data-tweet-limit="4" href="https://twitter.com/visdesignlab?ref_src=twsrc%5Etfw">Tweets by visdesignlab</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</article>
 
-
-
-  </article>
-
-
+</div>
     {% include footer.html %}
 </div>
 

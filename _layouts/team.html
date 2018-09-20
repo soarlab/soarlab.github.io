@@ -1,15 +1,12 @@
 ---
 layout: default
 ---
+
 <div class="team">
 
   <!--<header class="team-title">
     <h1>{{ page.title | remove: "| Vis Design Lab" }}</h1>
   </header>-->
-	  
-	  <div class="banner-team">
-      {% include team_header.html %}
-	  </div>
     
     {% for person in site.persons %}
       {% if person.graduated == null %}

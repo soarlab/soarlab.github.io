@@ -1,19 +1,19 @@
 # Site settings
-title: Visualization Design Lab
-email: vdl-faculty@sci.utah.edu
-description: "Data visualization research lab at SCI, SoC, University of Utah"
+title: soarlab
+email: zvonimir@cs.utah.edu
+description: "soarlab, SoC, University of Utah"
 baseurl: ""
-url: "http://vdl.sci.utah.edu"
-twitter_username:
-github_username: visdesignlab
-youtube_username:
+url: "https://soarlab.github.io/"
+twitter_username: soarlab
+github_username: soarlab
+youtube_username: 
 facebook_page:
 safe: false
 lsi: false
-google_analytics: "'UA-69348306-1'"
-use_analytics: true
+google_analytics: #"'UA-69348306-1'"
+use_analytics: false
 
-paper_content_url: http://sci.utah.edu/~vdl/papers/
+paper_content_url: /PDFs/
 
 plugins:
   - jekyll-redirect-from
@@ -24,6 +24,8 @@ sass:
   sass_dir: _sass
 # exclude from build
 exclude: ["README.md", ".idea/"]
+
+include: ["/PDFs"]
 
 # Collections
 collections:

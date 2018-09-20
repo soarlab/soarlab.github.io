@@ -1,14 +1,14 @@
 ---
 layout: default
-first_name: Alex
-last_name: Bigelow
-key: bigelow
-permalink: /persons/bigelow/
+first_name: Rocco
+last_name: Salvia
+key: rocco
+permalink: /persons/rocco/
 role: phdstudent
-email: abigelow@cs.utah.edu
-image: /assets/images/people/bigelow.png
+email: rocco@cs.utah.edu
+image: /assets/images/people/rocco.jpg
 organization: University of Utah
 position: PhD Student
-website: http://alex-r-bigelow.github.io/
-interests: Visualization Design Toolkits, Graph Data, User-centered Design
+website: http://www.cs.utah.edu/~rocco/
+interests: floating-point, program analysis, QNNs
 ---

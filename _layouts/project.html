@@ -77,10 +77,7 @@ layout: default
         <h3>Number</h3>
         <span>{{page.number}}</span>
         {% endif %}
-        {% endif %}
 
-        {% if page.collaborative-award %}<br>
-        <i class="fa fa-external-link"></i> &nbsp;<a href="{{ page.collaborative-award }}">Collaborative Award</a>
         {% endif %}
 
         {% if page.program %}
@@ -95,25 +92,8 @@ layout: default
 
         <h3>Principal Investigator</h3>
         <span>
-             <ul>
-             <li>
             {% include person_name_link.html key=page.pi %}
-             </li>
-             </ul>
         </span>
-
-             {% if page.copi %}
-        <h3>Co-Principal Investigator(s):</h3>
-        <ul>
-
-            {% for copi in page.copi %}
-                <li>
-                {% include person_name_link.html key=copi %}
-                </li>
-            {% endfor %}
-
-        </ul>
-        {% endif %}
 
      {% if page.coinvestigators %}
         <h3>Co-Investigator(s):</h3>
@@ -142,20 +122,6 @@ layout: default
         <span>{{page.partners}}</span>
         {%endif%}
 
-        {% if page.award %}
-        <h3>Awarded Amount:</h3>
-        <span>{{page.award}}</span>
-        {% endif %}
-
-        {% if page.award-utah %}
-        <h3>Share at Utah:</h3>
-        <span>{{page.award-utah}}</span>
-        {% endif %}
-
-        {% if page.award-lab %}
-        <h3>Share at VDL:</h3>
-        <span>{{page.award-lab}}</span>
-        {% endif %}
 
         {% if page.updated %}
         <h3>Last Updated</h3>

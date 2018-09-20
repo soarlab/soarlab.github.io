@@ -1,14 +1,9 @@
 ---
 layout: default
 ---
-
-<div class="banner"> 
-</div>
-
   <article class="publications-content">
 
-    <h1>Preprints</h1>
-
+    <h1>Journals</h1>
     {% for publication in site.publications reversed %}
       {% if publication.personal %}
       {% elsif publication.type == "preprint" %}
@@ -17,8 +12,7 @@ layout: default
     {% endfor %}
 
 
-    <h1>Peer-Reviewed Journal and Conference Papers </h1>
-    
+    <h1>Conference Papers </h1>
     {% for publication in site.publications reversed %}
       {% if publication.personal %}
       {% elsif publication.type == "paper" %}
@@ -26,35 +20,40 @@ layout: default
       {% endif %}
     {% endfor %}
 
-
-    <h1>Commentary</h1>
-
+    <h1>Workshops</h1>
     {% for publication in site.publications reversed %}
       {% if publication.personal %}
       {% elsif publication.type == "commentary" %}
         {% include publication_list_entry.html %}
       {% endif %}
     {% endfor %}
-
-    <h1>Selected Posters</h1>
     
+    <h1>Other</h1>
     {% for publication in site.publications reversed %}
       {% if publication.personal %}
       {% elsif publication.type == "poster" %}
         {% include publication_list_entry.html %}
       {% endif %}
     {% endfor %}
-
-    <h1>Dissertations and Theses</h1>
-
-    {% for publication in site.publications reversed %}
-      {% if publication.personal %}
-      {% elsif publication.type == "thesis" %}
-        {% include publication_list_entry.html %}
-      {% endif %}
-    {% endfor %}
-
+    
+    <div id="copyright">
+Copyright notice: This material is presented to ensure timely dissemination of scholarly and technical work. Copyright and all rights therein are retained by 		authors or by other copyright holders. All persons copying this information are expected to adhere to the terms and constraints invoked by each author’s copyright.
+    </div>
     <!-- <h1>Commentaries, Editorials, Book Chapters & Published Abstracts </h1>-->
 
 
   </article>
+ 
+<script>
+function myFunction(val) {
+    var x = document.getElementById(val);
+    //console.log(x.style.display);
+    if (x.style.display === "block") {
+        x.style.display = "none";
+    } else {
+        x.style.display = "block";
+    }
+}
+</script>
+
+

@@ -2,7 +2,10 @@
 layout: default
 ---
 <div class="publication">
-
+	<!-- page here refers to each .md file in folder _publications. page.abstract is an attribute in the .md file. --> 
+	<!-- site.animals refers to collection animals in file _config.yml, and then it scans to folder _animals. -->
+	<!-- site.persons refers to collections persons in file _config.yml and then it scans the folder _persons. -->
+	
   <header class="publication-title"><h1>{{ page.title | remove: "| Vis Design Lab" }}</h1></header>
 
   <article class="publication-content-main">
@@ -44,7 +47,7 @@ layout: default
         <br/>
         <span class="paper-title">
         {% if page.pdf %}
-          <b><a href="{{site.paper_content_url}}{{page.pdf}}">{{page.title}}</a></b>
+          <b><a href="{{site.baseurl}}{{site.paper_content_url}}{{page.pdf}}">{{page.title}}</a></b>
           {% else %}
           <b>{{page.title}}</b>
         {% endif %}

@@ -1,7 +1,17 @@
 <div class="navigation">
     <div class="logo">
-        <img style="height: 100px" src="{{ site.baseurl }}/assets/images/logos/vdl.png" alt="vdl logo">
+    		<a href="/">
+        	<img src="{{ site.baseurl }}/assets/images/logos/soarlab.png" alt="soarlab logo">
+        </a>
     </div>
+    
+    <div class="soc">
+    		<a href="/">
+        	<img src="{{ site.baseurl }}/assets/images/logos/utah_soc_trans.png" alt="soc logo">
+        </a>
+        <p class="blake"><i>"No bird soars too high, if he soars with his own wings."</i>&nbsp;&nbsp;&nbsp;W. Blake</p>
+    </div>
+    
     <div class="navigation-buttons">
 	  <ul>
       {% assign navButtons = "home|team|publications|culture|positions" | split: "|" %}
@@ -16,19 +26,19 @@
         {% if pageURLSplit[1] == navURL %}
           <li class="{{ nav }}-button">
             <a class="active" href="{{ site.baseurl }}/{{ navURL }}">
-            <span class="nav-text">{{ nav | upcase }}</span></a>
+            <span class="nav-text">{{ nav }}</span></a>
           </li>
 
         {% elsif navURL == "" and pageURL == "/" %}
           <li class="{{ nav }}-button">
             <a class="active" href="{{ site.baseurl }}/{{ navURL }}">
-            <span class="nav-text">{{ nav | upcase }}</span></a>
+            <span class="nav-text">{{ nav }}</span></a>
           </li>
         
         {% else %}
           <li class="{{ nav }}-button">
             <a href="{{ site.baseurl }}/{{ navURL }}">
-            <span class="nav-text">{{ nav | upcase }}</span></a>
+            <span class="nav-text">{{ nav }}</span></a>
           </li>
         {% endif %}
       {% endfor %}
