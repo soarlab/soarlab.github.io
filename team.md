@@ -1,6 +1,6 @@
 ---
 layout: team
-title: Team | Vis Design Lab
+title: Team | SOARlab
 weight: 2
 tag: team
 permalink: /team/

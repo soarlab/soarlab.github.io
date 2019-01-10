@@ -37,7 +37,7 @@ layout: publication
 title: "Pathfinder: Visual Analysis of Paths in Graphs"
 # Keys must be unique to each paper, see section below for more details
 key: 2016_eurovis_pathfinder
-# Select one of the options below
+# Select one of the options below. 'preprint' is journals, 'paper' is conference paper, 'commentary' is workshop, 'poster' appears as Other, etc.
 type: paper | preprint | poster | thesis | commentary
 # use this if this paper was previously a preprint and you need to preserve the old URL
 # redirect_from: /publications/2017_preprint_lineage

@@ -18,7 +18,7 @@
               {% assign sorted_publications = site.publications | sort: 'year' %}
             {% for publication in sorted_publications reversed %}
             {% if publication.personal %}
-	          {% elsif publication.year > 2017 and publication.type == "paper" %}
+	          {% elsif publication.year > 2017 %} <!-- and publication.type == "paper" -->
             <li>
               <div style="padding-right: 1.5em;"><a href="{{ site.baseurl }}{{ publication.url }}">{{ publication.title }}</a></div>
               <div style="margin-bottom: 5px;">
@@ -49,9 +49,10 @@
             });
 
             var i = 0;
-            ["#main-banner-image"].forEach(function (id) {
+            ["#main-banner-image","#top-right-banner-image", "#bottom-right-banner-image"].forEach(function (id) {
 
                 var pub = publications[i];
+                console.log(publications);
                 i++;
                 var bannerImg = document.querySelector(id + " img");
                 bannerImg.alt = pub.shortname;
@@ -60,16 +61,16 @@
                 var bannerLink = document.querySelector(id + "  a")
                 bannerLink.href = pub.url;
                 
-                // // shorten title of too long
-                // var titleLength = -1;
-                // if(i == 1){
-                //     titleLength = 66;
-                // }else{
-                //     titleLength = 30;
-                // }
-                // if(pub.title.length > titleLength){
-                //     pub.title = pub.title.substring(0, titleLength) + "...";
-                // }
+                //shorten title of too long
+                //var titleLength = -1;
+                //if(i == 1){
+                //	titleLength = 66;
+                //}else{
+                //	titleLength = 30;
+                //}
+                //if(pub.title.length > titleLength){
+                //	pub.title = pub.title.substring(0, titleLength) + "...";
+                //}
                 
                 var bannerText = document.querySelector(id + " span")
                 bannerText.innerText = pub.title;

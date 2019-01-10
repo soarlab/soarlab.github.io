@@ -6,7 +6,7 @@ last_name: Lex
 title: Alexander Lex 
 key: lex
 permalink: /team/lex/
-# faculty | phdstudent | phd_rotation | postdoc | msstudent | collaborator
+# faculty | phdstudent | phd_rotation | postdoc | msstudent | collaborator | undergrad
 role: faculty
 email: alex@sci.utah.edu
 image: /assets/images/people/lex.jpg

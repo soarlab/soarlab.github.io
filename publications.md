@@ -1,6 +1,6 @@
 ---
 layout: publications
-title: Publications | Vis Design Lab
+title: Publications | SOARlab
 tag: publications
 permalink: /publications/
 ---

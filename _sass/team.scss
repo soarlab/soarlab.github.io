@@ -52,7 +52,7 @@
   //min-height: 50px;
   
   .name {
-    @include span-columns(6 of 16);
+    @include span-columns(10 of 16);
     font-weight: 400;
   }
   
@@ -73,6 +73,7 @@
   }
   
   .interests {
+  	//clear: both;
     @include span-columns(10 of 16);
     font-family: $condensed-font-family;
     font-size: $page-content-font-size * 0.75;
@@ -157,14 +158,22 @@
     margin-bottom: 65px;
   }
 }
+.team-content p{
+	padding-left:5%;
+	padding-top:2%;
+}
+
+.team-content h1{
+	//margin-top:6%;
+}
 
 .person-image-small {
   @extend .person-image;
-  width: 70px;
-  height: 70px;
+  //width: 70px;
+  //height: 70px;
 	float:left;
 	margin-right: 25px;
-  margin-bottom: 25px;
+  margin-bottom: 5px;
   &.offset0 {
     margin-bottom: 75px;
   }

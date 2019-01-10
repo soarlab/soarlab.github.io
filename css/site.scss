@@ -17,7 +17,7 @@ $large-display: new-breakpoint(min-width 1200px $large-display-columns);
 
 html {
   overflow-y: scroll;
-	background-color: #D3D3D3; 
+	background-color: white; 
 }
 
 /* site specific changes that do not fit into base */
@@ -97,7 +97,8 @@ html {
 .banner {	
     display: inline-block;
     clear: left;
-		padding-top: 65px;
+    width:100%;
+		padding-top: 30px;
 	img{
 		border: 1px solid $dark-blue;
 	}
@@ -105,12 +106,17 @@ html {
 	.home-image{
 	  display: inline-block;
     float: left;
-		@include span-columns(8);
+		@include span-columns(8 of 12);
     margin-right: 0;
 //	padding-bottom:50px;
 //	margin-bottom:250px;
 		@include media($small-display) {
-			margin-bottom:100px;
+			//margin-bottom:100px;
+			width:100%;
+		}
+		@include media($medium-display) {
+			//margin-bottom:100px;
+			width:100%;
 		}
 	}
 
@@ -129,7 +135,7 @@ html {
 	overflow: hidden;
 	text-overflow: ellipsis;
     @include media($small-display){
-      display: none;
+      //display: none;
     }
   }
 	#main-banner-image {
@@ -156,21 +162,20 @@ html {
     }
 	}
 	#top-right-banner-image {
-		@include span-columns(4);
+		@include span-columns(4 of 12);
 		margin-right:0px;
-		float:right;
+		padding-left:30px;
 		margin-top: -15px;
-	  margin-bottom: 0.9%;
-//	  padding: 10px;
-//	  border: 2px solid $dark-blue;
+	  
     @include media($medium-display) {
-	  	margin-bottom: 0.7%;  
+	  	width:100%;
     }
+    
     @include media($small-display) {
-      @include span-columns(49 of 100);
-      margin-right: 2%;
-//      margin-bottom: 15px;
+      width:100%;
+      padding-left:0px;
     }
+    
 	}
   #bottom-right-banner-image {
 	  line-height: $base-font-size;
@@ -187,9 +192,15 @@ html {
 	}
 }
 
+#people-div-main {
+	float:left;
+	margin-top: 20px;
+ 	margin-bottom: 20px;
+}
+
 .team {
 	clear:both;
-	padding-top:50px;
+	padding-top:20px;
 }
 
 .navigation {
@@ -228,9 +239,14 @@ html {
 	display: inline-block;
 	float:right;
   img {	
-  float:right;
+ 	 	float:right;
+ 	 	@include media($small-display) {
+  		float:left;
+  	}
   }
-
+ 	@include media($small-display) {
+  	float:left;
+  }
 }
 
 .blake{
@@ -240,6 +256,9 @@ html {
 	font-size: 1em;
 	font-family: "Roboto Condensed", Montserrat, sans-serif;
 	color: #282828;
+	@include media($small-display) {
+  	float:left;
+  }
 }
 
 .logo {
@@ -271,7 +290,7 @@ html {
 
 #content-div-main{
 	display:inline-block;
-	margin-top: 20px;
+	margin-top: 30px;
 	border-top: 4px solid #DDD;
 }
 
@@ -286,9 +305,9 @@ html {
 body {
 	background-color: white;
   width: 96%;
-  padding: 3%;
-  margin: 2% auto 2% auto;
-	border: 2px solid $home-color;
+  padding: 2%;
+  margin: 1% auto 1% auto;
+	border: 2px solid white;
   @include media($large-display) {
     width: 94%;
     margin: 3% auto 3% auto;
@@ -736,6 +755,10 @@ ul.post-list {
   @include span-columns(8);
 }
 
+.publication {
+    display: inline-block;
+}
+
 .publication-content-aside {
   @include page-content();
   @include span-columns(4);
@@ -806,11 +829,17 @@ ul.post-list {
   box-shadow: $top $left $blur $color #{$inset};
 }
 
+.publications-content h1 {
+    clear: both;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
 .paper-list-block{
   min-height: 120px;
   margin-bottom: 20px;
   display: block;
- 
+ 	clear: both;
   @include media($medium-display) {
 	margin-bottom: 40px;
   }
@@ -857,7 +886,7 @@ ul.post-list {
 }
 
   p.pubs {
-    margin: 0 0 0 1.3em;
+    margin: 10px 0 0 1.3em;
 	
     @include media($small-display) {
 		margin: 0.5em 0 2em 0;
@@ -1165,6 +1194,7 @@ iframe {
 		}
 		h1 {
 			padding-top:15px;
+			clear:left;
 		}
 		.video{
 			p{
@@ -1217,5 +1247,6 @@ pre.bibtex {
 }
 
 #copyright {
-	margin-top:50px;
+  clear: both;
+	padding-top:50px;
 }
