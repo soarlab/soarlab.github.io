@@ -3,19 +3,18 @@ layout: default
 ---
   <article class="publications-content">
 
-    <h1>Journals</h1>
-    {% for publication in site.publications reversed %}
-      {% if publication.personal %}
-      {% elsif publication.type == "preprint" %}
-        {% include publication_list_entry.html %}
-      {% endif %}
-    {% endfor %}
-
-
     <h1>Conference Papers </h1>
     {% for publication in site.publications reversed %}
       {% if publication.personal %}
       {% elsif publication.type == "paper" %}
+        {% include publication_list_entry.html %}
+      {% endif %}
+    {% endfor %}
+    
+    <h1>Journals</h1>
+    {% for publication in site.publications reversed %}
+      {% if publication.personal %}
+      {% elsif publication.type == "preprint" %}
         {% include publication_list_entry.html %}
       {% endif %}
     {% endfor %}
