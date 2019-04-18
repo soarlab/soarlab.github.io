@@ -832,8 +832,10 @@ ul.post-list {
 }
 
 .publications-content h1 {
+		//display: inline-block;
 		transform-origin: left top;
-    clear: both;
+    float: left;
+   	clear: left;
     //padding-top: 20px;
     //padding-bottom: 20px;
 }
