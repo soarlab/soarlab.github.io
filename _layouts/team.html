@@ -70,8 +70,8 @@ layout: default
       
       <p class="space-alumni">&nbsp;</p>
 
-      <!-- <h1>PhD Graduates</h1> -->
-      <p class="person-list-block">
+      <!-- <h1>PhD Graduates</h1> <p class="person-list-block">-->
+      
       {% for p in site.persons %}
       {% if p.graduated and p.phd_graduate %}
       {% capture name %}{{ p.first_name }} {{ p.last_name }}{% endcapture %}
@@ -81,11 +81,10 @@ layout: default
           </span>
       {% endif %}
       {% endfor %}
-      </p> <br><br>
 
 
-      <!-- <h1>Other Alumni</h1>-->
-      <p class="person-list-block">
+      <!-- <h1>Other Alumni</h1> <p class="person-list-block">-->
+      
       {% for p in site.persons %}
         {% if p.graduated %}
           {% if p.phd_graduate %}
@@ -98,7 +97,6 @@ layout: default
           {% endif %}
         {% endif %}
       {% endfor %}
-      </p>
 
   </article>
 <script>

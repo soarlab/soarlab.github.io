@@ -1,4 +1,5 @@
 <div class="banner">
+    <h1>Recent Publications</h1>
     <div class="home-image">
         <div id="main-banner-image">
             <a class="banner-image" href="">
@@ -12,7 +13,7 @@
                 <span id="top-right-banner-image-title" class="banner-image-title"></span>
                 <img alt="" class="top-right-banner-image" src="{{ site.baseurl }}/assets/images/publications/">
             </a>-->
-            <h1>Recent Publications</h1>
+
 	  	  
 	      		<ul class="publication-icon-list">
               {% assign sorted_publications = site.publications | sort: 'year' %}
@@ -33,16 +34,7 @@
 	          {% endfor %}
 	      		</ul>
     </div>
-				<!--
-        <div id="bottom-right-banner-image">
-            <a class="banner-image" href="">
-                <img alt="" class="bottom-right-banner-image" src="{{ site.baseurl }}/assets/images/publications/">
-                <span id="bottom-right-banner-image-title" class="banner-image-title"></span>
-            </a>
-        </div>
-        
-        , "#top-right-banner-image", "#bottom-right-banner-image"
-				-->
+				
         <script>
             publications.sort(function () {
                 return .5 - Math.random();

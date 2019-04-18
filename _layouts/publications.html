@@ -3,42 +3,49 @@ layout: default
 ---
   <article class="publications-content">
 
-    <h1>Conference Papers </h1>
+    <h1 onclick="myFunction('conferencepapers')">Conference Papers </h1>
+    <div id="conferencepapers" style="display:none">
     {% for publication in site.publications reversed %}
       {% if publication.personal %}
       {% elsif publication.type == "paper" %}
         {% include publication_list_entry.html %}
       {% endif %}
     {% endfor %}
+    </div>
     
-    <h1>Journals</h1>
+    <h1 onclick="myFunction('journals')">Journals</h1>
+    <div id="journals" style="display:none">
     {% for publication in site.publications reversed %}
       {% if publication.personal %}
       {% elsif publication.type == "preprint" %}
         {% include publication_list_entry.html %}
       {% endif %}
     {% endfor %}
-
-    <h1>Workshops</h1>
+    </div>
+    
+    <h1 onclick="myFunction('workshops')">Workshops</h1>
+    <div id="workshops" style="display:none">    
     {% for publication in site.publications reversed %}
       {% if publication.personal %}
       {% elsif publication.type == "commentary" %}
         {% include publication_list_entry.html %}
       {% endif %}
     {% endfor %}
-    
-    <h1>Other</h1>
+    </div>
+
+    <h1 onclick="myFunction('other')">Other</h1>
+    <div id="other" style="display:none">
     {% for publication in site.publications reversed %}
       {% if publication.personal %}
       {% elsif publication.type == "poster" %}
         {% include publication_list_entry.html %}
       {% endif %}
     {% endfor %}
+    </div>
     
     <div id="copyright">
 Copyright notice: This material is presented to ensure timely dissemination of scholarly and technical work. Copyright and all rights therein are retained by 		authors or by other copyright holders. All persons copying this information are expected to adhere to the terms and constraints invoked by each author’s copyright.
     </div>
-    <!-- <h1>Commentaries, Editorials, Book Chapters & Published Abstracts </h1>-->
 
 
   </article>
@@ -46,7 +53,7 @@ Copyright notice: This material is presented to ensure timely dissemination of s
 <script>
 function myFunction(val) {
     var x = document.getElementById(val);
-    //console.log(x.style.display);
+    console.log(x.style.display);
     if (x.style.display === "block") {
         x.style.display = "none";
     } else {

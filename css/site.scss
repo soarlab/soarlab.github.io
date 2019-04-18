@@ -98,7 +98,9 @@ html {
     display: inline-block;
     clear: left;
     width:100%;
-		padding-top: 30px;
+		padding-top: 20px;
+		padding-bottom: 20px;
+		border-top: 4px solid #DDD;
 	img{
 		border: 1px solid $dark-blue;
 	}
@@ -165,7 +167,7 @@ html {
 		@include span-columns(4 of 12);
 		margin-right:0px;
 		padding-left:30px;
-		margin-top: -15px;
+		//margin-top: -15px;
 	  
     @include media($medium-display) {
 	  	width:100%;
@@ -200,7 +202,7 @@ html {
 
 .team {
 	clear:both;
-	padding-top:20px;
+	//padding-top:20px;
 }
 
 .navigation {
@@ -290,8 +292,8 @@ html {
 
 #content-div-main{
 	display:inline-block;
-	margin-top: 30px;
-	border-top: 4px solid #DDD;
+	//margin-top: 30px;
+	//border-top: 4px solid #DDD;
 }
 
 #central-page-logo{
@@ -783,7 +785,7 @@ ul.post-list {
 }
 
 .publications-content {
-	padding-top:50px;
+	//padding-top:50px;
   @include page-content();
   @include span-columns(12);
 }
@@ -830,9 +832,15 @@ ul.post-list {
 }
 
 .publications-content h1 {
+		transform-origin: left top;
     clear: both;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    //padding-top: 20px;
+    //padding-bottom: 20px;
+}
+
+.publications-content h1:hover {
+	//font-size: 150%;
+	transform: scale(1.2); 
 }
 
 .paper-list-block{

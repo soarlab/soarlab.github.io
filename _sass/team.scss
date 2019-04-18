@@ -1,6 +1,7 @@
 .team-content {
   @include page-content();
-  margin-bottom:100px;
+  //margin-bottom:100px;
+  display: inline-block;
   color: #f00;
   @include media($small-display){
     margin-bottom: 0px;
@@ -31,8 +32,8 @@
   .space-alumni {
     margin: auto;
     width: 85%;
-    border-bottom: 2px solid $footer-border-color;
-    margin-bottom: 20px;
+    //border-bottom: 2px solid $footer-border-color;
+    //margin-bottom: 20px;
   }
 }
 
@@ -44,11 +45,11 @@
 .person-list-block {
   @include outer-container;
   @include span-columns(12);
-  margin: 3px 0 0 3px;
-  padding-top: 2px;
-  padding-left: 10px;
+  //margin: 3px 0 0 3px;
+  //padding-top: 2px;
+  //padding-left: 10px;
   display: block;
-  border: 2px solid transparent;
+  //border: 2px solid transparent;
   //min-height: 50px;
   
   .name {
@@ -159,8 +160,8 @@
   }
 }
 .team-content p{
-	padding-left:5%;
-	padding-top:2%;
+	//padding-left:5%;
+	//padding-top:2%;
 }
 
 .team-content h1{

@@ -8,7 +8,7 @@ key: machado
 permalink: /team/machado/
 role: undergrad
 email: liam.machado@utah.edu
-# /assets/images/people/machado.jpg
+image: /assets/images/people/machado.jpg
 image:
 organization: University of Utah
 position: Bachelor Student
