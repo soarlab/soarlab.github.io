@@ -791,6 +791,10 @@ ul.post-list {
   @include span-columns(12);
 }
 
+.publications-content h1 {
+	cursor: pointer;
+}
+
 .publication-meta {
   @include page-meta();
 }
