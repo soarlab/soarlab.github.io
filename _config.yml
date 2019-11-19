@@ -1,9 +1,9 @@
 # Site settings
-title: soarlab
+title: SOARlab
 email: zvonimir@cs.utah.edu
-description: "soarlab, SoC, University of Utah"
+description: "Software Analysis Research Laboratory, School of Computing, University of Utah"
 baseurl: ""
-url: "https://soarlab.github.io/"
+url: "https://soarlab.org"
 twitter_username: soarlab
 github_username: soarlab
 youtube_username: 
