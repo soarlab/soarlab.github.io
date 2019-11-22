@@ -12,7 +12,7 @@ email: zvonimir@cs.utah.edu
 image: /assets/images/people/rakamaric.jpg
 organization: University of Utah
 position: Associate Professor
-website: https://zvonimir.info/
+website: https://zvonimir.info
 interests:
 graduated:
 ---

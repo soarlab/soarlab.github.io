@@ -1,10 +1,10 @@
-# VDL Profiles
+# SOARlab Profiles
 
-All VDL members are responsible for updating their content regularly.
+All SOARlab members are responsible for updating their content regularly.
 
 
 
-## Creating a VDL Member Profile
+## Creating a SOARlab Member Profile
 
 Please create a profile using the template here. Save this as a new Markdown
 file with your name as a unique key. In the template, do not remove or delete
@@ -18,53 +18,52 @@ include a photo.
 ---
 # use person layout if you want a page generated for you
 layout: person
-first_name: Alexander
-last_name: Lex
-key: lex
-permalink: /team/lex/
+first_name: Zvonimir
+last_name: Rakamaric
+key: rakamaric
+permalink: /team/rakamaric/
 # Pick one of the following
 role: faculty | postdoc | phdstudent | phd_rotation  | msstudent | undergrad | intern | collaborator
-email: alex@sci.utah.edu
-image: /assets/images/people/lex.jpg
+email: zvonimir@cs.utah.edu
+image: /assets/images/people/rakamaric.jpg
 organization: University of Utah
-position: Assistant Professor
+position: Associate Professor
 # use either a local link like here, or a URL
-website: /team/lex
-interests: Biology Visualization, Multivariate Graphs, Visualization Tools, Exploratory Visualization for Scientists
-#  leave empty if you're active. Add something like "M.S.'16" or "B.S.'17" if you got a degree while at VDL. Add "N" if you left VDS before you got a degree.
+website: https://zvonimir.info
+interests: Software Verification, Formal Methods
+#  leave empty if you're active. Add something like "M.S.'16" or "B.S.'17" if you got a degree while at SOARlab. Add "N" if you left SOARlab before you got a degree.
 graduated: 
 
 # stuff below can be ignored if you don't use the group website for your private website
 
-gs: https://scholar.google.com/citations?user=JFNLCUcAAAAJ
-gh: https://github.com/alexsb
-twitter: "@alexander_lex"
-cv: http://sci.utah.edu/~vdl/files/cv_alexander_lex.pdf
+gs: https://scholar.google.com/citations?user=Ui1q1jkAAAAJ
+gh: https://github.com/zvonimir
+twitter: "@rakamaric"
+cv: https://zvonimir.info/download/zvonimir_rakamaric-cv.pdf
 address: |
-    Scientific Computing and Imaging Institute, <br>
     School of Computing, University of Utah <br>
-    72 South Central Campus Drive, Room 3887 <br>
+    50 South Central Campus Drive, Room 3424 <br>
     Salt Lake City, Utah 84112
 
 # flag used to determine whether to show teaching
 showteaching: true
 
 phd_students:
- - nobre
+ - blah
 phd_rotation_students:
- - aljuhani
+ - blah
 ms_students:
- - Pranav Dommata
+ - blah
 former_students:
- - anirudh
+ - blah
 ---
 ```
 
 
 
-## Adding a VDL Member Picture
+## Adding a SOARlab Member Picture
 
-All active members of VDL should add a headshot. Please following the
+All active members of SOARlab should add a headshot. Please following the
 [instructions for adding images here](../assets/images/README.md).
 
 
