@@ -39,7 +39,7 @@ and be in the neighborhood of 200-300 kb. The thumbnail should be roughly
 
 ## People Images
 
-Please upload a grayscale headshot of yourself into the `images/people/`
+Please upload a headshot of yourself into the `images/people/`
 directory. Your picture should be:
 
 - aspect ratio: square or 1:1
