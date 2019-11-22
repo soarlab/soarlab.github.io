@@ -153,12 +153,3 @@ this if all publications follow the keys exactly. We would need to specify to
 Jekyll/Liquid when it should look for such a file/image, though, perhaps using
 the file extension or even just a simple period/dot or true/y would work.
 
-
-
-## Syncing with the SCI Server
-
-Here is a sync script that you can run to sync a local folder with the SCI server.
-
-``` bash
-rsync * alex@shell.sci.utah.edu:/usr/sci/www/vdl/papers --protocol=29 -r
-```
