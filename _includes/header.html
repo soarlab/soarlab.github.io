@@ -16,7 +16,11 @@
 	  <ul> <!-- culture -->
       {% assign navButtons = "home|team|publications|positions" | split: "|" %}
       {% for nav in navButtons %}
-        {% assign navURL = nav %}
+      	{% if nav == "team" %}
+          {% assign navURL = "people" %}
+        {% else %}  
+        	{% assign navURL = nav %}
+        {% endif %}
         {% assign pageURL = page.url %}
         {% assign pageURLSplit = page.url | split: "/" %}
         {% if nav == "home" %}
