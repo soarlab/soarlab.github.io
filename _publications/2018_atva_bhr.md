@@ -2,20 +2,20 @@
 layout: publication
 # The quotes make the : possible, otherwise you can do it without quotes
 title: "Verifying Rust Programs with SMACK"
-key: 2018_atva_rustsmack
+key: 2018_atva_bhr
 
 #YYYY_CONFSHORTNAME_PAPERSHORTNAME
 # paper | preprint | poster
 type: paper
-redirect_from: /publications/2018_atva_rustsmack
+redirect_from: /publications/2018_atva_bhr
 
 # The shortname is used for auto-generated titels
 shortname: RustSmack
 # add a 2:1 aspect ratio (e.g., width: 400px, height: 200px) to the folder /assets/images/papers/
-image: 2018_atva_rustsmack.png
+image: 2018_atva_bhr.png
 # 2018_tvcg_lineage.png
 # add a 2:1 aspect ratio teaser figure (e.g., width: 1200px, height: 600px) to the folder /assets/images/papers/
-image_large: 2018_atva_rustsmack.png
+image_large: 2018_atva_bhr.png
 #2018_tvcg_lineage_teaser.png
 
 # Authors in the "database" can be used with just the key (lastname). Others can be written properly.
@@ -27,20 +27,21 @@ authors:
 journal-short: ATVA
 year: 2018
 
-bibentry: article
+bibentry: inproceedings
 bib:
-  journal: 16th International Symposium on Automated Technology for Verification and Analysis (ATVA 2018), to appear
   booktitle: Proceedings of the 16th International Symposium on
     Automated Technology for Verification and Analysis (ATVA)
-  editor: 
-  publisher: ACM
-  address: 
-  doi: 
-  url: 
-  volume: 
-  number: 
-  pages: 
-  month: 
+  series: Lecture Notes in Computer Science
+  volume: 11138
+  publisher: Springer
+  editor: Shuvendu K. Lahiri and Chao Wang
+  pages: 528--535
+  doi: 10.1007/978-3-030-01090-4_32
+  address:
+  url:
+  volume:
+  number:
+  month:
 
 # Add things like "Best Paper Award at InfoVis 2099, selected out of 4000 submissions"
 award:
@@ -59,7 +60,7 @@ video:
 #preview-video:
 
 # the prerint
-pdf: 2018_atva_rustsmack.pdf
+pdf: 2018_atva_bhr.pdf
 # A supplement PDF
 supplement: 
 #2018_tvcg_lineage_supplement.pdf
