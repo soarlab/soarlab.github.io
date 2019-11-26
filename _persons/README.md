@@ -40,10 +40,6 @@ gs: https://scholar.google.com/citations?user=Ui1q1jkAAAAJ
 gh: https://github.com/zvonimir
 twitter: "@rakamaric"
 cv: https://zvonimir.info/download/zvonimir_rakamaric-cv.pdf
-address: |
-    School of Computing, University of Utah <br>
-    50 South Central Campus Drive, Room 3424 <br>
-    Salt Lake City, Utah 84112
 
 # flag used to determine whether to show teaching
 showteaching: true

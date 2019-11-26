@@ -20,9 +20,6 @@ gs:
 github: https://github.com/keram88
 twitter:
 cv:
-address: "School of Computing, University of Utah <br>
-50 South Central Campus Drive <br>
-Salt Lake City, Utah 84112"
 ---
 
 I am a PhD student in the School of Computing at the University of Utah.
