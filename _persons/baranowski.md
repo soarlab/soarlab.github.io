@@ -11,7 +11,7 @@ email: baranows@cs.utah.edu
 image: /assets/images/people/baranowski.jpg
 organization: University of Utah
 position: PhD Student
-website:
+website: /team/baranowski/
 interests: Software Verification, Rust, Floating-Points
 graduated:
 
@@ -19,5 +19,12 @@ graduated:
 gs:
 gh: https://github.com/keram88
 twitter:
-
+cv:
+address: |
+    School of Computing, University of Utah <br>
+    50 South Central Campus Drive <br>
+    Salt Lake City, Utah 84112
 ---
+
+I am a PhD student in the School of Computing at the University of Utah.
+
