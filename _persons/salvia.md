@@ -9,6 +9,6 @@ email: rocco@cs.utah.edu
 image: /assets/images/people/salvia.jpg
 organization: University of Utah
 position: PhD Student
-website: http://www.cs.utah.edu/~rocco/
+website: http://www.cs.utah.edu/~rocco
 interests:
 ---

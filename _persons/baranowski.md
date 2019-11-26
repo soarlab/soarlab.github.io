@@ -11,7 +11,7 @@ email: baranows@cs.utah.edu
 image: /assets/images/people/baranowski.jpg
 organization: University of Utah
 position: PhD Student
-website: /team/baranowski/
+website: /team/baranowski
 interests: Software Verification, Rust, Floating-Points
 graduated:
 

@@ -11,7 +11,7 @@ email: shaobo@cs.utah.edu
 image: /assets/images/people/he.jpg
 organization: University of Utah
 position: PhD Student
-website: http://www.cs.utah.edu/~shaobo/
+website: http://www.cs.utah.edu/~shaobo
 interests:
 graduated:
 ---
