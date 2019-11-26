@@ -7,7 +7,7 @@ key: 2018_atva_bhr
 #YYYY_CONFSHORTNAME_PAPERSHORTNAME
 # paper | preprint | poster
 type: paper
-redirect_from: /publications/2018_atva_bhr
+redirect_from: /2018/07/atva2018-bhr
 
 # The shortname is used for auto-generated titels
 shortname: ATVA 2018
@@ -71,9 +71,8 @@ supplements:
 #  # defaults to a download icon, use this if you want a link-out icon
 #  linksym: true
 
-# Link to the repository where the code is hostet
-code:
-# https://github.com/soarlab/FPTaylor
+# Link to the repository where the code is hosted
+code: https://github.com/smackers/smack
 
 # Link to an official preprint server
 preprint_server: 
