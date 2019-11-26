@@ -84,3 +84,7 @@ Rust is an emerging systems programming language with guaranteed memory safety a
 
 # After the --- you can put information that you want to appear on the website using markdown formatting or HTML. A good example are acknowledgements, extra references, an erratum, etc.
 ---
+### Acknowledgements
+
+Supported in part by the National Science Foundation (NSF) award CNS 1527526.
+
