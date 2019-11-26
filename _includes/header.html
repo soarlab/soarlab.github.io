@@ -26,31 +26,19 @@
         {% if pageURLSplit[1] == navURL %}
           <li class="{{ nav }}-button">
             <a class="active" href="{{ site.baseurl }}/{{ navURL }}">
-            {% if nav == "team" %}
-            	<span class="nav-text">team</span></a>
-        		{% else %}
             	<span class="nav-text">{{ nav }}</span></a>
-        		{% endif %}
           </li>
 
         {% elsif navURL == "" and pageURL == "/" %}
           <li class="{{ nav }}-button">
             <a class="active" href="{{ site.baseurl }}/{{ navURL }}">
-            {% if nav == "team" %}
-            	<span class="nav-text">team</span></a>
-        		{% else %}
             	<span class="nav-text">{{ nav }}</span></a>
-        		{% endif %}
           </li>
         
         {% else %}
           <li class="{{ nav }}-button">
             <a href="{{ site.baseurl }}/{{ navURL }}">
-            {% if nav == "team" %}
-            	<span class="nav-text">team</span></a>
-        		{% else %}
             	<span class="nav-text">{{ nav }}</span></a>
-        		{% endif %}
           </li>
         {% endif %}
       {% endfor %}
