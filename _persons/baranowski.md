@@ -16,6 +16,8 @@ interests: Software Verification, Rust, Floating-Points
 graduated:
 
 
+# stuff below can be ignored if you don't use the group website for your private website
+
 gs:
 github: https://github.com/keram88
 twitter:

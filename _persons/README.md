@@ -34,6 +34,7 @@ interests: Software Verification, Formal Methods
 #  leave empty if you're active. Add something like "M.S.'16" or "B.S.'17" if you got a degree while at SOARlab. Add "N" if you left SOARlab before you got a degree.
 graduated: 
 
+
 # stuff below can be ignored if you don't use the group website for your private website
 
 gs: https://scholar.google.com/citations?user=Ui1q1jkAAAAJ
