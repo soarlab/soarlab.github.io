@@ -10,13 +10,11 @@ type: paper
 redirect_from: /publications/2018_atva_bhr
 
 # The shortname is used for auto-generated titels
-shortname: RustSmack
+shortname: ATVA 2018
 # add a 2:1 aspect ratio (e.g., width: 400px, height: 200px) to the folder /assets/images/papers/
 image: 2018_atva_bhr.png
-# 2018_tvcg_lineage.png
 # add a 2:1 aspect ratio teaser figure (e.g., width: 1200px, height: 600px) to the folder /assets/images/papers/
-image_large: 2018_atva_bhr.png
-#2018_tvcg_lineage_teaser.png
+image_large: 2018_atva_bhr_teaser.png
 
 # Authors in the "database" can be used with just the key (lastname). Others can be written properly.
 authors:
