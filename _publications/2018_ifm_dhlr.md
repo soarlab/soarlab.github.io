@@ -1,46 +1,46 @@
 ---
 layout: publication
 # The quotes make the : possible, otherwise you can do it without quotes
-title: "Verifying Rust Programs with SMACK"
+title: "Study of Integrating Random and Symbolic Testing for Object-Oriented Software"
 # YYYY_CONFSHORTNAME_PAPERSHORTNAME
-key: 2018_atva_bhr
+key: 2018_ifm_dhlr
 
 # paper | preprint | poster
 type: paper
-redirect_from: /2018/07/atva2018-bhr
+redirect_from: /2018/06/ifm2018-dhlr
 
 # The shortname is used for auto-generated titels
-shortname: ATVA 2018
+shortname: IFM 2018
 # add a 2:1 aspect ratio (e.g., width: 400px, height: 200px) to the folder /assets/images/papers/
-image: 2018_atva_bhr.png
+image: 2018_ifm_dhlr.png
 # add a 2:1 aspect ratio teaser figure (e.g., width: 1200px, height: 600px) to the folder /assets/images/papers/
-image_large: 2018_atva_bhr_teaser.png
+image_large: 2018_ifm_dhlr_teaser.png
 
 # Authors in the "database" can be used with just the key (lastname). Others can be written properly.
 authors:
-- baranowski
-- he
+- Marko Dimjasevic
+- Falk Howar
+- Kasper Luckow
 - rakamaric
 
-journal-short: ATVA
+journal-short: IFM
 year: 2018
 
 # bibentry: article | inproceedings | phdthesis | book
 bibentry: inproceedings
 bib:
-  booktitle: Proceedings of the 16th International Symposium on
-    Automated Technology for Verification and Analysis (ATVA)
+  booktitle: Proceedings of the 14th International Conference on
+    Integrated Formal Methods (IFM)
   series: Lecture Notes in Computer Science
-  volume: 11138
+  volume: 11023
   publisher: Springer
-  editor: Shuvendu K. Lahiri and Chao Wang
-  pages: 528--535
-  doi: 10.1007/978-3-030-01090-4_32
-  address:
-  url:
-  volume:
-  number:
-  month:
+  editor: Carlo A. Furia and Kirsten Winter
+  pages: 89--109
+  doi: 10.1007/978-3-319-98938-9_6
+  address: 
+  url: 
+  number: 
+  month: 
 
 # Add things like "Best Paper Award at InfoVis 2099, selected out of 4000 submissions"
 award:
@@ -59,7 +59,7 @@ video:
 #preview-video:
 
 # the preprint
-pdf: 2018_atva_bhr.pdf
+pdf: 2018_ifm_dhlr.pdf
 # A supplement PDF
 supplement: 
 #2018_tvcg_lineage_supplement.pdf
@@ -73,20 +73,29 @@ supplements:
 #  linksym: true
 
 # Link to the repository where the code is hosted
-code: https://github.com/smackers/smack
+code: https://github.com/psycopaths/jdoop
 
 # Link to an official preprint server
 preprint_server: 
 #https://doi.org/10.1101/128579
 
 abstract: "<p>
-Rust is an emerging systems programming language with guaranteed memory safety
-and modern language features that has been extensively adopted to build
-safety-critical software. However, there is currently a lack of automated
-software verifiers for Rust. In this work, we present our experience extending
-the SMACK verifier to enable its usage on Rust programs. We evaluate SMACK on a
-set of Rust programs to demonstrate a wide spectrum of language features it
-supports.
+Testing is currently the main technique adopted by the industry for improving
+the quality, reliability, and security of software. In order to lower the cost
+of manual testing, automatic testing techniques have been devised, such as
+random and symbolic testing, with their respective trade-offs. For example,
+random testing excels at fast global exploration of software, while it plateaus
+when faced with hard-to-hit numerically-intensive execution paths. On the other
+hand, symbolic testing excels at exploring such paths, while it struggles when
+faced with complex heap class structures. In this paper, we describe an
+approach for automatic unit testing of object-oriented software that integrates
+the two techniques. We leverage feedback-directed unit testing to generate
+meaningful sequences of constructor+method invocations that create rich heap
+structures, and we in turn further explore these sequences using dynamic
+symbolic execution. We implement this approach in a tool called JDoop, which we
+augment with several parameters for fine-tuning its heuristics; such “knobs”
+allow for a detailed exploration of the various trade-offs that the proposed
+integration offers.
 </p>"
 
 # After the --- you can put information that you want to appear on the website
@@ -95,5 +104,5 @@ supports.
 ---
 ### Acknowledgements
 
-Supported in part by the National Science Foundation (NSF) award CNS 1527526.
+Supported in part by the National Science Foundation (NSF) award CCF 1421678.
 
