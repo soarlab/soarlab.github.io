@@ -93,7 +93,7 @@ the two techniques. We leverage feedback-directed unit testing to generate
 meaningful sequences of constructor+method invocations that create rich heap
 structures, and we in turn further explore these sequences using dynamic
 symbolic execution. We implement this approach in a tool called JDoop, which we
-augment with several parameters for fine-tuning its heuristics; such “knobs”
+augment with several parameters for fine-tuning its heuristics; such knobs
 allow for a detailed exploration of the various trade-offs that the proposed
 integration offers.
 </p>"
