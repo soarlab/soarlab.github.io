@@ -33,9 +33,17 @@ bibentry: inproceedings
 bib:
   booktitle: Proceedings of the 32nd IEEE International Parallel and
     Distributed Processing Symposium (IPDPS)
+  series:
+  volume:
   publisher: IEEE Computer Society
+  editor:
   pages: 845--854
   doi: 10.1109/IPDPS.2018.00094
+  address:
+  url:
+  volume:
+  number:
+  month:
 
 # Add things like "Best Paper Award at InfoVis 2099, selected out of 4000 submissions"
 award:
@@ -76,7 +84,7 @@ preprint_server:
 
 abstract: "<p>
 The detection and elimination of data races in large-scale OpenMP programs is
-of critical importance. Unfortunately, today’s state-of-the-art OpenMP race
+of critical importance. Unfortunately, today's state-of-the-art OpenMP race
 checkers suffer from high memory overheads and/or miss races. In this paper, we
 present Sword, a data race detector that significantly improves upon these
 limitations. Sword limits the application slowdown and memory usage by
