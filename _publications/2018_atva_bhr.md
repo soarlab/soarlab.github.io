@@ -38,7 +38,6 @@ bib:
   doi: 10.1007/978-3-030-01090-4_32
   address:
   url:
-  volume:
   number:
   month:
 
@@ -50,11 +49,9 @@ award:
 
 # Use this if you have an external project website
 external-project:
-#https://github.com/soarlab/FPTaylor
 
 # The reference to the video entry
 video:
-# 2018_tvcg_lineage_video
 # The reference to the preview viedo entry
 #preview-video:
 
@@ -62,7 +59,6 @@ video:
 pdf: 2018_atva_bhr.pdf
 # A supplement PDF
 supplement: 
-#2018_tvcg_lineage_supplement.pdf
 
 # Extra supplements, such as talk slides, data sets, etc.
 supplements:
