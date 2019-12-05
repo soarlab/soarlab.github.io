@@ -21,7 +21,7 @@ authors:
 - chiang
 - baranowski
 - Ian Briggs
-- Alexey Solovyev
+- solovyev
 - Ganesh Gopalakrishnan
 - rakamaric
 
