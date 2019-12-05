@@ -25,11 +25,9 @@ The thumbnail is **MANDATORY**. If you do not provide a teaser image, your
 publication will not show up on the front page, but that may be ideal for some
 situations.
 
-
-The image should be named `YYYY_CONFSHORTNAME_PAPERSHORTNAME.png` for the
-thumbnail and `YYYY_CONFSHORTNAME_PAPERSHORTNAME_teaser.png` for the larger
-teaser figure. Both should be stored in the `images/publications/` directory.
-
+The thumbnail figure is a word cloud with black background (e.g., generated via
+https://www.wordclouds.com) and the teaser figure is generally the key figure
+from your publication (e.g., tool flow, core algorithm).
 
 The aspect ratio for both should be 2:1. The teaser should be roughly 1200x600
 and be in the neighborhood of 200-300 kb. The thumbnail should be roughly
