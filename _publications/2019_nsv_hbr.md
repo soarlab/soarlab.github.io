@@ -14,7 +14,7 @@ shortname: NSV 2019
 image: 2019_nsv_hbr.png
 # 2018_tvcg_lineage.png
 # add a 2:1 aspect ratio teaser figure (e.g., width: 1200px, height: 600px) to the folder /assets/images/papers/
-image_large: 2019_nsv_hbr.png
+image_large: 2019_nsv_hbr_teaser.png
 #2018_tvcg_lineage_teaser.png
 
 # Authors in the "database" can be used with just the key (lastname). Others can be written properly.
@@ -78,3 +78,6 @@ abstract: "We present OL1V3R, a solver for the SMT floating-point theory that is
 
 # After the --- you can put information that you want to appear on the website using markdown formatting or HTML. A good example are acknowledgements, extra references, an erratum, etc.
 ---
+### Acknowledgements
+Supported in part by the National Science Foundation (NSF) awards CCF 1552975 and CCF 1704715.
+
