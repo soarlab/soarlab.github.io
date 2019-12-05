@@ -30,14 +30,15 @@ bibentry: inproceedings
 bib:
   journal:
   booktitle: Proceedings of the 12th International Workshop on Numerical Software Verification (NSV)
+  series: Lecture Notes in Computer Science
+  volume: 11652
+  publisher: Springer
   editor: Zamani, Majid and Zufferey, Damien
-  publisher:
-  address: 
+  pages: 76--84
   doi: 10.1007/978-3-030-28423-7_5 
+  address:
   url: 
-  volume: 
   number: 
-  pages: 76--84 
   month: 
 
 # Add things like "Best Paper Award at InfoVis 2099, selected out of 4000 submissions"
@@ -74,7 +75,9 @@ code: https://github.com/soarlab/OL1V3R
 preprint_server: 
 #https://doi.org/10.1101/128579
 
-abstract: "We present OL1V3R, a solver for the SMT floating-point theory that is based on stochastic local search (SLS). We adapt for OL1V3R the key ingredients of related work on leveraging SLS to solve the SMT fixed-sized bit-vector theory, and confirm its effectiveness by comparing it with mature solvers. Finally, we discuss the limitations of OL1V3R and propose solutions to make it more powerful."
+abstract: "<p>
+We present OL1V3R, a solver for the SMT floating-point theory that is based on stochastic local search (SLS). We adapt for OL1V3R the key ingredients of related work on leveraging SLS to solve the SMT fixed-sized bit-vector theory, and confirm its effectiveness by comparing it with mature solvers. Finally, we discuss the limitations of OL1V3R and propose solutions to make it more powerful.
+</p>"
 
 # After the --- you can put information that you want to appear on the website using markdown formatting or HTML. A good example are acknowledgements, extra references, an erratum, etc.
 ---
