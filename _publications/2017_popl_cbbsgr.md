@@ -18,7 +18,7 @@ image_large: 2017_popl_cbbsgr_teaser.png
 
 # Authors in the "database" can be used with just the key (lastname). Others can be written properly.
 authors:
-- Wei-Fan Chiang
+- chiang
 - baranowski
 - Ian Briggs
 - Alexey Solovyev
