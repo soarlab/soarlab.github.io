@@ -6,7 +6,7 @@ title: "Stochastic Local Search for Solving Floating-Point Constraints"
 key: 2019_nsv_hbr
 # paper | preprint | poster
 type: commentary
-redirect_from: /2019/07/nsv2019-hbr
+redirect_from:
 
 # The shortname is used for auto-generated titels
 shortname: NSV 2019

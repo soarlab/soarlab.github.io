@@ -25,9 +25,10 @@ The thumbnail is **MANDATORY**. If you do not provide a teaser image, your
 publication will not show up on the front page, but that may be ideal for some
 situations.
 
-The thumbnail figure is a word cloud with black background (e.g., generated via
-https://www.wordclouds.com) and the teaser figure is generally the key figure
-from your publication (e.g., tool flow, core algorithm).
+The thumbnail image is a word cloud with black background (e.g., generated via
+https://www.wordclouds.com). The teaser image is either the key figure
+from your publication (e.g., tool flow, core algorithm) if there is a nice one,
+or the same word cloud image as your thumbnail (note the difference in sizes).
 
 The aspect ratio for both should be 2:1. The teaser should be roughly 1200x600
 and be in the neighborhood of 200-300 kb. The thumbnail should be roughly
