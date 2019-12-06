@@ -7,7 +7,7 @@ key: 2019_nfm_stfmmr
 
 # paper | preprint | poster
 type: paper
-redirect_from: /2019/05/nfm2019-stfmmr
+redirect_from:
 
 # The shortname is used for auto-generated titles
 shortname: NFM 2019
@@ -95,7 +95,7 @@ PRECiSA.
 ---
 ### Acknowledgements
 
-Partially supported by NSF awards CCF 1346756 and CCF 1704715.
+Partially supported by NSF awards CCF 1346756 and CCF 1704715.  Research by the
+first four authors was supported by the National Aeronautics and Space
+Administration under NASA/NIA Cooperative Agreement NNL09AA00A.
 
-Research by the first four authors was supported by the National Aeronautics and
-Space Administration under NASA/NIA Cooperative Agreement NNL09AA00A.

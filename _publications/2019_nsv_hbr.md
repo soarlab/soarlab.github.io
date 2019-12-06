@@ -8,7 +8,7 @@ key: 2019_nsv_hbr
 type: commentary
 redirect_from:
 
-# The shortname is used for auto-generated titels
+# The shortname is used for auto-generated titles
 shortname: NSV 2019
 # add a 2:1 aspect ratio (e.g., width: 400px, height: 200px) to the folder /assets/images/papers/
 image: 2019_nsv_hbr.png

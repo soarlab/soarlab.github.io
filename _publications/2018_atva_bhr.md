@@ -9,7 +9,7 @@ key: 2018_atva_bhr
 type: paper
 redirect_from: /2018/07/atva2018-bhr
 
-# The shortname is used for auto-generated titels
+# The shortname is used for auto-generated titles
 shortname: ATVA 2018
 # add a 2:1 aspect ratio (e.g., width: 400px, height: 200px) to the folder /assets/images/papers/
 image: 2018_atva_bhr.png

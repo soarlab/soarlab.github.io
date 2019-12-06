@@ -9,7 +9,7 @@ key: 2017_popl_cbbsgr
 type: paper
 redirect_from: /2016/11/popl2017-cbbsgr
 
-# The shortname is used for auto-generated titels
+# The shortname is used for auto-generated titles
 shortname: POPL 2017
 # add a 2:1 aspect ratio (e.g., width: 400px, height: 200px) to the folder /assets/images/papers/
 image: 2017_popl_cbbsgr.png
