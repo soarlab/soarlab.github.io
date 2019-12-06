@@ -5,8 +5,8 @@ title: "Sword: A Bounded Memory-Overhead Detector of OpenMP Data Races in Produc
 # YYYY_CONFSHORTNAME_PAPERSHORTNAME
 key: 2018_ipdps_agrlla
 
-# paper | preprint | poster | workshop
-type: paper
+# conference | journal | poster | workshop
+type: conference
 redirect_from: /2018/02/ipdps2018-agrlla
 
 # The shortname is used for auto-generated titles

@@ -6,7 +6,7 @@ key: 2013_ISSTA_XPSYCO
 
 #YYYY_CONFSHORTNAME_PAPERSHORTNAME
 # paper | preprint | poster
-type: paper
+type: conference
 redirect_from: /publications/2013_ISSTA_XPSYCO
 
 # The shortname is used for auto-generated titels

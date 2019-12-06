@@ -6,7 +6,7 @@ key: 2007_SEFM_BCHR
 
 #YYYY_CONFSHORTNAME_PAPERSHORTNAME
 # paper | preprint | poster
-type: paper
+type: conference
 redirect_from: /publications/2007_SEFM_BCHR
 
 # The shortname is used for auto-generated titels

@@ -6,7 +6,7 @@ key: 2012_SAS_PSYCO
 
 #YYYY_CONFSHORTNAME_PAPERSHORTNAME
 # paper | preprint | poster
-type: paper
+type: conference
 redirect_from: /publications/2012_SAS_PSYCO
 
 # The shortname is used for auto-generated titels

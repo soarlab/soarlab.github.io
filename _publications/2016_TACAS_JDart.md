@@ -6,7 +6,7 @@ key: 2016_TACAS_JDart
 
 #YYYY_CONFSHORTNAME_PAPERSHORTNAME
 # paper | preprint | poster
-type: paper
+type: conference
 redirect_from: /publications/2016_TACAS_JDart
 
 # The shortname is used for auto-generated titels

@@ -6,7 +6,7 @@ key: 2014_PPoPP_BGRT
 
 #YYYY_CONFSHORTNAME_PAPERSHORTNAME
 # paper | preprint | poster
-type: paper
+type: conference
 redirect_from: /publications/2014_PPoPP_BGRT
 
 # The shortname is used for auto-generated titels

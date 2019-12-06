@@ -6,7 +6,7 @@ key: 2015_TACAS_SMACKCORRAL
 
 #YYYY_CONFSHORTNAME_PAPERSHORTNAME
 # paper | preprint | poster
-type: paper
+type: conference
 redirect_from: /publications/2015_TACAS_SMACKCORRAL
 
 # The shortname is used for auto-generated titels

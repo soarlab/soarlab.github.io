@@ -6,7 +6,7 @@ key: 2014_CAV_SMACK
 
 #YYYY_CONFSHORTNAME_PAPERSHORTNAME
 # paper | preprint | poster
-type: paper
+type: conference
 redirect_from: /publications/2014_CAV_SMACK
 
 # The shortname is used for auto-generated titels

@@ -6,7 +6,7 @@ key: 2011_POPL_eqr
 
 #YYYY_CONFSHORTNAME_PAPERSHORTNAME
 # paper | preprint | poster
-type: paper
+type: conference
 redirect_from: /publications/2011_POPL_eqr
 
 # The shortname is used for auto-generated titels

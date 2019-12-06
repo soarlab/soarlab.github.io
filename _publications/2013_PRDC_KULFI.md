@@ -6,7 +6,7 @@ key: 2013_PRDC_KULFI
 
 #YYYY_CONFSHORTNAME_PAPERSHORTNAME
 # paper | preprint | poster
-type: paper
+type: conference
 redirect_from: /publications/2013_PRDC_KULFI
 
 # The shortname is used for auto-generated titels

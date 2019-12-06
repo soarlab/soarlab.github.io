@@ -6,7 +6,7 @@ key: 2009_CAV_STORM
 
 #YYYY_CONFSHORTNAME_PAPERSHORTNAME
 # paper | preprint | poster
-type: paper
+type: conference
 redirect_from: /publications/2009_CAV_STORM
 
 # The shortname is used for auto-generated titels

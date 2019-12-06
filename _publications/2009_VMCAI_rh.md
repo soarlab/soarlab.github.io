@@ -6,7 +6,7 @@ key: 2009_VMCAI_rh
 
 #YYYY_CONFSHORTNAME_PAPERSHORTNAME
 # paper | preprint | poster
-type: paper
+type: conference
 redirect_from: /publications/2009_VMCAI_rh
 
 # The shortname is used for auto-generated titels

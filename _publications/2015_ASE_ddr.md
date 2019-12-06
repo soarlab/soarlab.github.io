@@ -6,7 +6,7 @@ key: 2015_ASE_ddr
 
 #YYYY_CONFSHORTNAME_PAPERSHORTNAME
 # paper | preprint | poster
-type: paper
+type: conference
 redirect_from: /publications/2015_ASE_ddr
 
 # The shortname is used for auto-generated titels

@@ -6,7 +6,7 @@ key: 2017_APLAS_hr
 
 #YYYY_CONFSHORTNAME_PAPERSHORTNAME
 # paper | preprint | poster
-type: paper
+type: conference
 redirect_from: /publications/2017_APLAS_hr
 
 # The shortname is used for auto-generated titels

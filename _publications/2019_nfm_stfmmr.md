@@ -5,8 +5,8 @@ title: "A Mixed Real and Floating-Point Solver"
 # YYYY_CONFSHORTNAME_PAPERSHORTNAME
 key: 2019_nfm_stfmmr
 
-# paper | preprint | poster | workshop
-type: paper
+# conference | journal | poster | workshop
+type: conference
 redirect_from:
 
 # The shortname is used for auto-generated titles

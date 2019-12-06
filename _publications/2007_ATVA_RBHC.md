@@ -6,7 +6,7 @@ key: 2007_ATVA_RBHC
 
 #YYYY_CONFSHORTNAME_PAPERSHORTNAME
 # paper | preprint | poster
-type: paper
+type: conference
 redirect_from: /publications/2007_ATVA_RBHC
 
 # The shortname is used for auto-generated titels

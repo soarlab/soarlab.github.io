@@ -5,8 +5,8 @@ title: "Verifying Rust Programs with SMACK"
 # YYYY_CONFSHORTNAME_PAPERSHORTNAME
 key: 2018_atva_bhr
 
-# paper | preprint | poster | workshop
-type: paper
+# conference | journal | poster | workshop
+type: conference
 redirect_from: /2018/07/atva2018-bhr
 
 # The shortname is used for auto-generated titles

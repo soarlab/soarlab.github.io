@@ -4,7 +4,8 @@ layout: publication
 title: "Stochastic Local Search for Solving Floating-Point Constraints"
 # YYYY_CONFSHORTNAME_PAPERSHORTNAME
 key: 2019_nsv_hbr
-# paper | preprint | poster | workshop
+
+# conference | journal | poster | workshop
 type: workshop
 redirect_from:
 

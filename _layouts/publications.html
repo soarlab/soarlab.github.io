@@ -7,7 +7,7 @@ layout: default
     <div id="conferencepapers" style="display:none">
     {% for publication in site.publications reversed %}
       {% if publication.personal %}
-      {% elsif publication.type == "paper" %}
+      {% elsif publication.type == "conference" %}
         {% include publication_list_entry.html %}
       {% endif %}
     {% endfor %}

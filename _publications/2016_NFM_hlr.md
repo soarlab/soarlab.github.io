@@ -6,7 +6,7 @@ key: 2016_NFM_hlr
 
 #YYYY_CONFSHORTNAME_PAPERSHORTNAME
 # paper | preprint | poster
-type: paper
+type: conference
 redirect_from: /publications/2016_NFM_hlr
 
 # The shortname is used for auto-generated titels
