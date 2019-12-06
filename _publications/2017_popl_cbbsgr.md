@@ -5,7 +5,7 @@ title: "Rigorous Floating-Point Mixed-Precision Tuning"
 # YYYY_CONFSHORTNAME_PAPERSHORTNAME
 key: 2017_popl_cbbsgr
 
-# paper | preprint | poster
+# paper | preprint | poster | workshop
 type: paper
 redirect_from: /2016/11/popl2017-cbbsgr
 

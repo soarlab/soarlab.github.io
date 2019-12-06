@@ -5,7 +5,7 @@ title: "Study of Integrating Random and Symbolic Testing for Object-Oriented Sof
 # YYYY_CONFSHORTNAME_PAPERSHORTNAME
 key: 2018_ifm_dhlr
 
-# paper | preprint | poster
+# paper | preprint | poster | workshop
 type: paper
 redirect_from: /2018/06/ifm2018-dhlr
 

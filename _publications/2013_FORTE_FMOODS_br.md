@@ -5,7 +5,7 @@ title: "Asynchronously Communicating Visibly Pushdown Systems"
 key: 2013_FORTE_FMOODS_br
 
 #YYYY_CONFSHORTNAME_PAPERSHORTNAME
-# paper | preprint | poster | commentary
+# paper | preprint | poster | workshop
 type: paper
 redirect_from: /publications/2013_FORTE_FMOODS_br
 

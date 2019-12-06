@@ -4,8 +4,8 @@ layout: publication
 title: "Exploring Floating-Point Trade-Offs in ML"
 key: 2018_WAX_sr
 #YYYY_CONFSHORTNAME_PAPERSHORTNAME
-# paper | preprint | poster
-type: commentary
+# paper | preprint | poster | workshop
+type: workshop
 redirect_from: /publications/2018_WAX_sr
 
 # The shortname is used for auto-generated titels

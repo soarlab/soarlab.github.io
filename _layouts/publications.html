@@ -27,7 +27,7 @@ layout: default
     <div id="workshops" style="display:none">    
     {% for publication in site.publications reversed %}
       {% if publication.personal %}
-      {% elsif publication.type == "commentary" %}
+      {% elsif publication.type == "workshop" %}
         {% include publication_list_entry.html %}
       {% endif %}
     {% endfor %}

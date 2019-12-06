@@ -24,10 +24,10 @@ layout: default
 {% endfor %}
 
 {% for publication in site.publications reversed %}
-{% if publication.type == "commentary" %}
+{% if publication.type == "workshop" %}
 {% for author in publication.authors %}
 {% if author == page.key %}
-{% assign hascommentary = 'true' %}
+{% assign hasworkshop = 'true' %}
 {% endif %}
 {% endfor %}
 {% endif %}
@@ -142,7 +142,7 @@ layout: default
 
 <div  class="publication-content">
 
-    {% if haspublications == "true" or haspreprints == "true" or hascommentary == "true" or hasthesis == "true" or hasposter == "true" %}
+    {% if haspublications == "true" or haspreprints == "true" or hasworkshop == "true" or hasthesis == "true" or hasposter == "true" %}
 
         <h2 id="publications">Publications</h2>
 
@@ -172,10 +172,10 @@ layout: default
         {% endfor %}
         {% endif %}
 
-        {% if hascommentary == "true" %}
+        {% if hasworkshop == "true" %}
         <h3>Commentary</h3>
         {% for publication in site.publications reversed %}
-        {% if publication.type == "commentary" %}
+        {% if publication.type == "workshop" %}
         {% for author in publication.authors %}
         {% if author == page.key %}
         {% include publication_list_entry.html %}

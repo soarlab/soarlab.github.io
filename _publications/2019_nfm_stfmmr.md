@@ -5,7 +5,7 @@ title: "A Mixed Real and Floating-Point Solver"
 # YYYY_CONFSHORTNAME_PAPERSHORTNAME
 key: 2019_nfm_stfmmr
 
-# paper | preprint | poster
+# paper | preprint | poster | workshop
 type: paper
 redirect_from:
 
