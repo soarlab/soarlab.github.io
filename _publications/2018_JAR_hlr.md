@@ -6,7 +6,7 @@ key: 2018_JAR_hlr
 
 #YYYY_CONFSHORTNAME_PAPERSHORTNAME
 # paper | preprint | poster
-type: preprint
+type: journal
 redirect_from: /publications/2018_JAR_hlr
 
 # The shortname is used for auto-generated titels

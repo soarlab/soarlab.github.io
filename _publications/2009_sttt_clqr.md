@@ -6,7 +6,7 @@ key: 2009_sttt_clqr
 
 #YYYY_CONFSHORTNAME_PAPERSHORTNAME
 # paper | preprint | poster
-type: preprint
+type: journal
 redirect_from: /publications/2009_sttt_clqr
 
 # The shortname is used for auto-generated titels

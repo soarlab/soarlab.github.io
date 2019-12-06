@@ -6,7 +6,7 @@ key: 2014_CiSE_hmbcrg
 
 #YYYY_CONFSHORTNAME_PAPERSHORTNAME
 # paper | preprint | poster
-type: preprint
+type: journal
 redirect_from: /publications/2014_CiSE_hmbcrg
 
 # The shortname is used for auto-generated titels

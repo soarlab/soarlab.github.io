@@ -4,10 +4,10 @@ layout: default
 
 <!-- FLAGS TO DETERMINE WHAT TO RENDER -->
 {% for publication in site.publications reversed %}
-{% if publication.type == "preprint" %}
+{% if publication.type == "journal" %}
 {% for author in publication.authors %}
 {% if author == page.key %}
-{% assign haspreprints = 'true' %}
+{% assign hasjournal = 'true' %}
 {% endif %}
 {% endfor %}
 {% endif %}
@@ -142,14 +142,14 @@ layout: default
 
 <div  class="publication-content">
 
-    {% if haspublications == "true" or haspreprints == "true" or hasworkshop == "true" or hasthesis == "true" or hasposter == "true" %}
+    {% if haspublications == "true" or hasjournal == "true" or hasworkshop == "true" or hasthesis == "true" or hasposter == "true" %}
 
         <h2 id="publications">Publications</h2>
 
-        {% if haspreprints == "true" %}
+        {% if hasjournal == "true" %}
         <h3>Preprints</h3>
             {% for publication in site.publications reversed %}
-                {% if publication.type == "preprint" %}
+                {% if publication.type == "journal" %}
                     {% for author in publication.authors %}
                         {% if author == page.key %}
                             {% include publication_list_entry.html %}

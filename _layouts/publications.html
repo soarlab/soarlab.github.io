@@ -17,7 +17,7 @@ layout: default
     <div id="journals" style="display:none">
     {% for publication in site.publications reversed %}
       {% if publication.personal %}
-      {% elsif publication.type == "preprint" %}
+      {% elsif publication.type == "journal" %}
         {% include publication_list_entry.html %}
       {% endif %}
     {% endfor %}

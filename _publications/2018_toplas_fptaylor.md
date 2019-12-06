@@ -5,7 +5,7 @@ title: "Rigorous Estimation of Floating-Point Round-off Errors with Symbolic Tay
 key: 2018_toplas_fptaylor
 #YYYY_CONFSHORTNAME_PAPERSHORTNAME
 # paper | preprint | poster
-type: preprint
+type: journal
 redirect_from: /publications/2018_toplas_fptaylor
 
 # The shortname is used for auto-generated titels
