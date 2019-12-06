@@ -21,7 +21,7 @@ image_large: 2016_TACAS_JDart.png
 # Authors in the "database" can be used with just the key (lastname). Others can be written properly.
 authors:
 - Kasper Luckow
-- Marko Dimjasevic
+- dimjasevic
 - Dimitra Giannakopoulou
 - Falk Howar
 - Malte Isberner

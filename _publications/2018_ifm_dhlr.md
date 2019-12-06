@@ -18,7 +18,7 @@ image_large: 2018_ifm_dhlr_teaser.png
 
 # Authors in the "database" can be used with just the key (lastname). Others can be written properly.
 authors:
-- Marko Dimjasevic
+- dimjasevic
 - Falk Howar
 - Kasper Luckow
 - rakamaric
