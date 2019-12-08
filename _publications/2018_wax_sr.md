@@ -1,45 +1,45 @@
 ---
 layout: publication
 # The quotes make the : possible, otherwise you can do it without quotes
-title: "Stochastic Local Search for Solving Floating-Point Constraints"
+title: "Exploring Floating-Point Trade-Offs in ML"
 # YYYY_CONFSHORTNAME_PAPERSHORTNAME
-key: 2019_nsv_hbr
+key: 2018_wax_sr
 
 # conference | journal | poster | workshop
 type: workshop
-redirect_from:
+redirect_from: /2018/04/wax2018-sr
 
 # The shortname is used for auto-generated titles
-shortname: NSV 2019
+shortname: WAX 2018
 # add a 2:1 aspect ratio (e.g., width: 400px, height: 200px) to the folder /assets/images/papers/
-image: 2019_nsv_hbr.png
+image: 2018_wax_sr.png
 # add a 2:1 aspect ratio teaser figure (e.g., width: 1200px, height: 600px) to the folder /assets/images/papers/
-image_large: 2019_nsv_hbr_teaser.png
+image_large: 2018_wax_sr_teaser.png
 
 # Authors in the "database" can be used with just the key (lastname). Others can be written properly.
 authors:
-- he
-- baranowski
+- salvia
 - rakamaric
 
-journal-short: NSV
-year: 2019
+journal-short: WAX
+year: 2018
 
 # bibentry: article | inproceedings | phdthesis | book
 bibentry: inproceedings
 bib:
-  booktitle: Proceedings of the 12th International Workshop on Numerical
-    Software Verification (NSV)
-  series: Lecture Notes in Computer Science
-  volume: 11652
-  publisher: Springer
-  editor: Majid Zamani and Damien Zufferey
-  pages: 76--84
-  doi: 10.1007/978-3-030-28423-7_5
+  booktitle: Informal Proceedings of the Workshop on Approximate Computing
+    Across the Stack (WAX)
+  series:
+  volume:
+  publisher:
+  editor:
+  pages:
+  doi:
   address:
   url:
   number:
   month:
+  note: Position paper
 
 # Add things like "Best Paper Award at InfoVis 2099, selected out of 4000 submissions"
 award:
@@ -56,7 +56,7 @@ video:
 #preview-video:
 
 # the preprint
-pdf: 2019_nsv_hbr.pdf
+pdf: 2018_wax_sr.pdf
 # A supplement PDF
 supplement: 
 
@@ -69,19 +69,25 @@ supplements:
 #  linksym: true
 
 # Link to the repository where the code is hosted
-code: https://github.com/soarlab/OL1V3R
+code: https://github.com/soarlab/FPML
 
 # Link to an official preprint server
 preprint_server: 
 #https://doi.org/10.1101/128579
 
 abstract: "<p>
-We present OL1V3R, a solver for the SMT floating-point theory that is based on
-stochastic local search (SLS). We adapt for OL1V3R the key ingredients of
-related work on leveraging SLS to solve the SMT fixed-sized bit-vector theory,
-and confirm its effectiveness by comparing it with mature solvers. Finally, we
-discuss the limitations of OL1V3R and propose solutions to make it more
-powerful.
+Perceptron and Support Vector Machine (SVM) algorithms are two well-known and
+widely used linear predictors. They compute a hypothesis function using
+supervised learning to predict labels of unknown future samples. Both training
+and testing procedures are typically implemented using double precision
+floating-points to minimize the error, which often results in overly
+conservative implementations that waste runtime and/or energy. In this work, we
+empirically analyze the impact of floating-point precision on these predictors.
+We assess whether the precision of reading the dataset, training, or testing is
+the most critical for the overall accuracy. Our analysis in particular focuses
+on very small floating-point bit-widths (i.e., only several bits of precision),
+and compares these against the well-known and widely used single and double
+precision types.
 </p>"
 
 # After the --- you can put information that you want to appear on the website
@@ -90,6 +96,6 @@ powerful.
 ---
 ### Acknowledgements
 
-Supported in part by the National Science Foundation (NSF) awards CCF 1552975
-and CCF 1704715.
+We thank Annie Cherkaev and Vivek Srikumar for insightful discussions. This
+work was supported in part by NSF CCF 1552975.
 
