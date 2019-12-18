@@ -42,6 +42,7 @@ bib:
   url:
   number:
   month:
+  note:
 
 # Add things like "Best Paper Award at InfoVis 2099, selected out of 4000 submissions"
 award:
