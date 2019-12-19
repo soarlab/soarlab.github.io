@@ -14,14 +14,14 @@ shortname: 2019_memocode_dr
 # add a 2:1 aspect ratio (e.g., width: 400px, height: 200px) to the folder /assets/images/papers/
 image: 2019_memocode_dr.png
 # 2018_tvcg_lineage.png
-# add a 2:1 aspect ratio teaser figure (e.g., width: 1200px, height: 600px) to the folder /assets/images/papers/
+# add a 2:1 aspect ratio teaser figure (e.g., width: 1600px, height: 800px) to the folder /assets/images/papers/
 image_large: 2019_memocode_dr_teaser.dr
 #2018_tvcg_lineage_teaser.png
 
 # Authors in the "database" can be used with just the key (lastname). Others can be written properly.
 authors:
-- Dabaghchian
-- Rakamaric
+- dabaghchian
+- rakamaric
 
 journal-short: MEMOCODE
 year: 2019
@@ -32,11 +32,12 @@ bibentry: inproceedings
 bib:
   journal:
   booktitle: Proceedings of the 17th ACM/IEEE International Conference on Formal Methods and Models for System Design
+  series: MEMOCODE '19
   editor: 
   publisher: ACM
-  address: 
+  address: New York, NY, USA
   doi: 10.1145/3359986.3361201
-  url: 
+  url: http://doi.acm.org/10.1145/3359986.3361201
   volume:
   number: 
   pages: 4:1--4:11
@@ -79,9 +80,9 @@ code:
 preprint_server: 
 #https://doi.org/10.1101/128579
 
-abstract: "
+abstract: "<p>
 A cyber-physical system often consists of distributed multi-rate periodic processes that communicate using message passing; each process owns a local clock not synchronized with others. We call such systems quasi-periodic distributed systems. Traditionally, one would model them using timed automata, thereby having to deal with high-complexity verification problems. Recently, several researchers proposed discrete-time abstractions based on the calendar model to make the verification more tractable. However, even the calendar model contains a notion of time in the form of a global clock. We propose a novel, timeless computation model for quasi-periodic distributed systems to facilitate their verification. The main idea behind our model is to judiciously replace synchronization using a global clock and calendar with synchronization over lengths of message buffers. We introduce a simple domain-specific language for programming of such systems and use it to formalize the semantics of both the calendar and timeless model. Then, we prove that our timeless model is an overapproximation of the calendar model. Finally, we evaluate our timeless model using several benchmarks.
-"
+</p>"
 
 # After the --- you can put information that you want to appear on the website using markdown formatting or HTML. A good example are acknowledgements, extra references, an erratum, etc.
 ---
