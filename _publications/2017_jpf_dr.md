@@ -47,7 +47,8 @@ award:
 # project: upset
 
 # Use this if you have an external project website
-external-project: https://pages.lip6.fr/syncfree/index.html
+external-project: 
+#https://pages.lip6.fr/syncfree/index.html
 
 # The reference to the video entry
 video:

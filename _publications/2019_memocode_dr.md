@@ -15,7 +15,7 @@ shortname: 2019_memocode_dr
 image: 2019_memocode_dr.png
 # 2018_tvcg_lineage.png
 # add a 2:1 aspect ratio teaser figure (e.g., width: 1600px, height: 800px) to the folder /assets/images/papers/
-image_large: 2019_memocode_dr_teaser.dr
+image_large: 2019_memocode_dr_teaser.png
 #2018_tvcg_lineage_teaser.png
 
 # Authors in the "database" can be used with just the key (lastname). Others can be written properly.
@@ -31,7 +31,7 @@ year: 2019
 bibentry: inproceedings
 bib:
   journal:
-  booktitle: Proceedings of the 17th ACM/IEEE International Conference on Formal Methods and Models for System Design
+  booktitle: Proceedings of the 17th ACM/IEEE International Conference on Formal Methods and Models for System Design (MEMOCODE)
   series: MEMOCODE '19
   editor: 
   publisher: ACM
