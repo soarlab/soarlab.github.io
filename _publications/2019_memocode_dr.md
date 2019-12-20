@@ -5,12 +5,14 @@ title: "A Timeless Model for The Verification of Quasi-Periodic Distributed Syst
 key: 2019_memocode_dr
 
 #YYYY_CONFSHORTNAME_PAPERSHORTNAME
-# paper | preprint | poster
+key: 2019_memocode_dr
+
+# conference | journal | poster | workshop
 type: conference
 redirect_from: /publications/2019_memocode_dr
 
 # The shortname is used for auto-generated titels
-shortname: 2019_memocode_dr
+shortname: MEMOCODE 2019
 # add a 2:1 aspect ratio (e.g., width: 400px, height: 200px) to the folder /assets/images/papers/
 image: 2019_memocode_dr.png
 # 2018_tvcg_lineage.png

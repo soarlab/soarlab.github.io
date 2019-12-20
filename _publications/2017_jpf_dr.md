@@ -10,7 +10,7 @@ type: workshop
 redirect_from: /2017/09/jpf2017-dromt
 
 # The shortname is used for auto-generated titles
-shortname: JPF 2017
+shortname: JPF
 # add a 2:1 aspect ratio (e.g., width: 400px, height: 200px) to the folder /assets/images/papers/
 image: 2017_jpf_dr.png
 # add a 2:1 aspect ratio teaser figure (e.g., width: 1600px, height: 800px) to the folder /assets/images/papers/
@@ -27,7 +27,7 @@ year: 2017
 # bibentry: article | inproceedings | phdthesis | book
 bibentry: article
 bib:
-  journal: ACM SIGSOFT Software Engineering Notes
+  journal: ACM SIGSOFT Software Engineering Notes (JPF)
   series:
   volume: 42
   publisher: ACM
