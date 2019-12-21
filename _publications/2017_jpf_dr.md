@@ -10,10 +10,10 @@ type: workshop
 redirect_from: /2017/09/jpf2017-dromt
 
 # The shortname is used for auto-generated titles
-shortname: JPF
+shortname: JPF 2017
 # add a 2:1 aspect ratio (e.g., width: 400px, height: 200px) to the folder /assets/images/papers/
 image: 2017_jpf_dr.png
-# add a 2:1 aspect ratio teaser figure (e.g., width: 1600px, height: 800px) to the folder /assets/images/papers/
+# add a 2:1 aspect ratio teaser figure (e.g., width: 1200px, height: 600px) to the folder /assets/images/papers/
 image_large: 2017_jpf_dr_teaser.png
 
 # Authors in the "database" can be used with just the key (lastname). Others can be written properly.
@@ -27,7 +27,7 @@ year: 2017
 # bibentry: article | inproceedings | phdthesis | book
 bibentry: article
 bib:
-  journal: ACM SIGSOFT Software Engineering Notes (JPF)
+  journal: ACM SIGSOFT Software Engineering Notes
   series:
   volume: 42
   publisher: ACM
@@ -35,7 +35,7 @@ bib:
   pages: 1--5
   doi: 10.1145/3149485.3149493
   address:
-  url: 
+  url:
   number: 4
   month: October
   note: Proceedings of the 2017 Java Pathfinder Workshop (JPF)
@@ -47,8 +47,7 @@ award:
 # project: upset
 
 # Use this if you have an external project website
-external-project: 
-#https://pages.lip6.fr/syncfree/index.html
+external-project:
 
 # The reference to the video entry
 video:
@@ -72,11 +71,24 @@ supplements:
 code: https://github.com/Maryam81609/commander
 
 # Link to an official preprint server
-preprint_server: https://doi.org/10.1145/3149485.3149493
+preprint_server:
 #https://doi.org/10.1145/3149485.3149493
 
 abstract: "<p>
-Modern geo-replicated data stores provide high availability by relaxing the underlying consistency requirements. Programs layered over such data stores are called weakly consistent programs. Due to the reduced consistency requirements, they exhibit highly nondeterministic behaviors, some of which might violate program invariants. Therefore, implementing correct weakly consistent programs and reasoning about them is challenging. In this paper, we present a systematic scheduling approach that is aware of the underlying consistency model. Our approach dynamically explores all possible program behaviors allowed by the used data store consistency model, and it evaluates program invariants during the exploration. We implement the approach in a prototype model checker for Antidote, which is a causally consistent key-value data store with convergent conflict handling. We evaluate our tool on several benchmarks. The results show that our approach is effective in detecting buggy behaviors in weakly consistent programs.
+Modern geo-replicated data stores provide high availability by relaxing the
+underlying consistency requirements. Programs layered over such data stores are
+called weakly consistent programs. Due to the reduced consistency requirements,
+they exhibit highly nondeterministic behaviors, some of which might violate
+program invariants. Therefore, implementing correct weakly consistent programs
+and reasoning about them is challenging. In this paper, we present a systematic
+scheduling approach that is aware of the underlying consistency model. Our
+approach dynamically explores all possible program behaviors allowed by the
+used data store consistency model, and it evaluates program invariants during
+the exploration. We implement the approach in a prototype model checker for
+Antidote, which is a causally consistent key-value data store with convergent
+conflict handling. We evaluate our tool on several benchmarks. The results show
+that our approach is effective in detecting buggy behaviors in weakly
+consistent programs.
 </p>"
 
 # After the --- you can put information that you want to appear on the website
@@ -85,5 +97,6 @@ Modern geo-replicated data stores provide high availability by relaxing the unde
 ---
 ### Acknowledgements
 
-This research is supported in part by European FP7 project 609 551 SyncFree (2013–2016).
+This research is supported in part by European FP7 project 609 551 SyncFree
+(2013-2016).
 
