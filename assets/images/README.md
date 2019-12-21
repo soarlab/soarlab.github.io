@@ -30,7 +30,7 @@ https://www.wordclouds.com). The teaser image is either the key figure
 from your publication (e.g., tool flow, core algorithm) if there is a nice one,
 or the same word cloud image as your thumbnail (note the difference in sizes).
 
-The aspect ratio for both should be 2:1. The teaser should be roughly 1200x600
+The aspect ratio for both should be 2:1. The teaser should be roughly 1600x800
 and be in the neighborhood of 200-300 kb. The thumbnail should be roughly
 400x200 with a file size of roughly 50-70 kb.
 
