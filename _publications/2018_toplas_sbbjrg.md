@@ -14,7 +14,7 @@ shortname: TOPLAS 2018
 # add a 2:1 aspect ratio (e.g., width: 400px, height: 200px) to the folder /assets/images/papers/
 image: 2018_toplas_sbbjrg.png
 # add a 2:1 aspect ratio teaser figure (e.g., width: 1200px, height: 600px) to the folder /assets/images/papers/
-image_large: 2018_toplas_sbbjrg.png
+image_large: 2018_toplas_sbbjrg_teaser.png
 
 # Authors in the "database" can be used with just the key (lastname). Others can be written properly.
 authors:
