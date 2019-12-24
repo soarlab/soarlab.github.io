@@ -41,7 +41,7 @@ bib:
   address:
   url:
   number: 1
-  month: December
+  month: dec
   note:
   issue_date: March 2019
 

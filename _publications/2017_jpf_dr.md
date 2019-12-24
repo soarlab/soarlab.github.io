@@ -37,7 +37,7 @@ bib:
   address:
   url:
   number: 4
-  month: October
+  month: oct
   note: Proceedings of the 2017 Java Pathfinder Workshop (JPF)
 
 # Add things like "Best Paper Award at InfoVis 2099, selected out of 4000 submissions"
