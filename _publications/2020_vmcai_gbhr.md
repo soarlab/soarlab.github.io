@@ -18,7 +18,7 @@ image_large: 2020_vmcai_gbhr_teaser.png
 
 # Authors in the "database" can be used with just the key (lastname). Others can be written properly.
 authors:
-- Jack J. Garzella
+- garzella
 - baranowski 
 - he
 - rakamaric
@@ -62,7 +62,7 @@ pdf: 2020_vmcai_gbhr.pdf
 supplement: 
 
 # Extra supplements, such as talk slides, data sets, etc.
-supplements:
+supplements: https://github.com/soarlab/gandalv
 #- name: General UpSet
 #  # use link instead of abslink if you want to link to the master directory
 #  abslink: http://vials.io/talk/
