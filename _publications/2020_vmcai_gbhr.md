@@ -62,7 +62,10 @@ pdf: 2020_vmcai_gbhr.pdf
 supplement: 
 
 # Extra supplements, such as talk slides, data sets, etc.
-supplements: https://github.com/soarlab/gandalv
+supplements:
+- name: Multi-Language Verification Benchmarks
+  abslink: https://github.com/soarlab/gandalv
+  linksym: true
 #- name: General UpSet
 #  # use link instead of abslink if you want to link to the master directory
 #  abslink: http://vials.io/talk/
