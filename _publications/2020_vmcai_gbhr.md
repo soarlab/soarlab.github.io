@@ -30,17 +30,17 @@ year: 2020
 bibentry: inproceedings
 bib:
   booktitle: Proceedings of the 21st International Conference on Verification, Model Checking, and Abstract Interpretation (VMCAI)
-  series:
-  volume:
-  publisher:
-  editor:
-  pages:
-  doi:
+  series: Lecture Notes in Computer Science
+  volume: 11990
+  publisher: Springer
+  editor: Beyer, Dirk and Zufferey, Damien
+  pages: 90--111
+  doi: 10.1007/978-3-030-39322-9_5
   address:
   url:
   number:
   month:
-  note: to appear
+  note:
 
 # Add things like "Best Paper Award at InfoVis 2099, selected out of 4000 submissions"
 award:
