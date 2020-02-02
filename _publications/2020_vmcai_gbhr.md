@@ -33,7 +33,7 @@ bib:
   series: Lecture Notes in Computer Science
   volume: 11990
   publisher: Springer
-  editor: Beyer, Dirk and Zufferey, Damien
+  editor: Dirk Beyer and Damien Zufferey
   pages: 90--111
   doi: 10.1007/978-3-030-39322-9_5
   address:
