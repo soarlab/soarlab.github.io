@@ -96,6 +96,7 @@ to the domain of approximate computing in a cost-effective manner.
 ---
 ### Acknowledgements
 
-This work was supported in part by NSF award CCF 1255776 and SRC contract
-2013-TJ-2426.
+We thank Adrian Sampson for his feedback and for helping out with benchmark
+selection, and Akash Lal for helping out with Houdini. This work was supported
+in part by NSF award CCF 1255776 and SRC contract 2013-TJ-2426.
 
