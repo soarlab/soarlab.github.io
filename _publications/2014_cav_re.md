@@ -2,20 +2,20 @@
 layout: publication
 # The quotes make the : possible, otherwise you can do it without quotes
 title: "SMACK: Decoupling Source Language Details from Verifier Implementations"
-key: 2014_CAV_SMACK
+key: 2014_cav_re
 
 #YYYY_CONFSHORTNAME_PAPERSHORTNAME
 # paper | preprint | poster
 type: conference
-redirect_from: /publications/2014_CAV_SMACK
+redirect_from: /publications/2014_cav_re
 
 # The shortname is used for auto-generated titels
-shortname: 2014_CAV_SMACK
+shortname: 2014_cav_re
 # add a 2:1 aspect ratio (e.g., width: 400px, height: 200px) to the folder /assets/images/papers/
-image: 2014_CAV_SMACK.png
+image: 2014_cav_re.png
 # 2018_tvcg_lineage.png
 # add a 2:1 aspect ratio teaser figure (e.g., width: 1200px, height: 600px) to the folder /assets/images/papers/
-image_large: 2014_CAV_SMACK.png
+image_large: 2014_cav_re_teaser.png
 #2018_tvcg_lineage_teaser.png
 
 # Authors in the "database" can be used with just the key (lastname). Others can be written properly.
@@ -60,7 +60,7 @@ video:
 #preview-video:
 
 # the prerint
-pdf: 2014_CAV_SMACK.pdf
+pdf: 2014_cav_re.pdf
 # A supplement PDF
 supplement: 
 #2018_tvcg_lineage_supplement.pdf
