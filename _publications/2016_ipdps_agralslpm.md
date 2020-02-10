@@ -47,7 +47,7 @@ bib:
   number:
   month:
   note:
-  
+ 
 # Add things like "Best Paper Award at InfoVis 2099, selected out of 4000 submissions"
 award:
 
@@ -79,7 +79,7 @@ supplements:
 code: https://github.com/PRUNERS/archer
 
 # Link to an official preprint server
-preprint_server: 
+preprint_server:
 #https://doi.org/10.1101/128579
 
 abstract: "<p>

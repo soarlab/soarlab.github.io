@@ -29,7 +29,8 @@ year: 2020
 # bibentry: article | inproceedings | phdthesis | book
 bibentry: inproceedings
 bib:
-  booktitle: Proceedings of the 21st International Conference on Verification, Model Checking, and Abstract Interpretation (VMCAI)
+  booktitle: Proceedings of the 21st International Conference on Verification,
+    Model Checking, and Abstract Interpretation (VMCAI)
   series: Lecture Notes in Computer Science
   volume: 11990
   publisher: Springer

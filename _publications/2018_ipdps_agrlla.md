@@ -62,7 +62,7 @@ video:
 # the preprint
 pdf: 2018_ipdps_agrlla.pdf
 # A supplement PDF
-supplement: 
+supplement:
 
 # Extra supplements, such as talk slides, data sets, etc.
 supplements:
@@ -76,7 +76,7 @@ supplements:
 code: https://github.com/PRUNERS/sword
 
 # Link to an official preprint server
-preprint_server: 
+preprint_server:
 #https://doi.org/10.1101/128579
 
 abstract: "<p>
