@@ -2,15 +2,16 @@
 layout: publication
 # The quotes make the : possible, otherwise you can do it without quotes
 title: "SMACK: Decoupling Source Language Details from Verifier Implementations"
+# YYYY_CONFSHORTNAME_PAPERSHORTNAME
 key: 2014_cav_re
 
 #YYYY_CONFSHORTNAME_PAPERSHORTNAME
 # paper | preprint | poster
 type: conference
-redirect_from: /publications/2014_cav_re
+redirect_from:
 
-# The shortname is used for auto-generated titels
-shortname: 2014_cav_re
+# The shortname is used for auto-generated titles
+shortname: CAV 2014
 # add a 2:1 aspect ratio (e.g., width: 400px, height: 200px) to the folder /assets/images/papers/
 image: 2014_cav_re.png
 # 2018_tvcg_lineage.png
@@ -36,7 +37,7 @@ bib:
   editor: Armin Biere and Roderick Bloem
   publisher: Springer
   address: 
-  doi:
+  doi: 10.1007/978-3-319-08867-9_7
   url: 
   volume: 8559
   number: 
@@ -51,7 +52,7 @@ award:
 
 # Use this if you have an external project website
 external-project: 
-#https://github.com/soarlab/FPTaylor
+#https://github.com/smackers/smack
 
 # The reference to the video entry
 video:
@@ -73,7 +74,7 @@ supplements:
 #  # defaults to a download icon, use this if you want a link-out icon
 #  linksym: true
 
-# Link to the repository where the code is hostet
+# Link to the repository where the code is hosted
 code: https://github.com/smackers/smack
 
 # Link to an official preprint server
