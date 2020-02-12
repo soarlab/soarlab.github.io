@@ -3,7 +3,6 @@
 layout: default
 first_name: Zvonimir
 last_name: Rakamaric
-title: Zvonimir Rakamaric 
 key: rakamaric
 permalink: /team/rakamaric/
 # faculty | phdstudent | phd_rotation | postdoc | msstudent | collaborator
