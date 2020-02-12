@@ -54,9 +54,9 @@ award:
 external-project:
 
 # The reference to the video entry
-video: https://youtu.be/SPPSC1KdRzs
+video: 
 # The reference to the preview viedo entry
-#preview-video:
+preview-video: https://youtu.be/SPPSC1KdRzs
 
 # the preprint
 pdf: 2016_icse_chwre.pdf
