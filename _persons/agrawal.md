@@ -3,7 +3,6 @@
 layout: person
 first_name: Ankit
 last_name: Agrawal
-title: Ankit Agrawal 
 key: agrawal
 permalink: /team/agrawal/
 role: msstudent

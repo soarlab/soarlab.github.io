@@ -3,7 +3,6 @@
 layout: default
 first_name: Shaobo
 last_name: He 
-title: Shaobo He 
 key: he
 permalink: /team/he/
 role: phdstudent

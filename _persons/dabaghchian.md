@@ -3,7 +3,6 @@
 layout: default
 first_name: Maryam
 last_name: Dabaghchian
-title: Maryam Dabaghchian 
 key: dabaghchian
 permalink: /team/dabaghchian/
 # faculty | phdstudent | phd_rotation | postdoc | msstudent | collaborator
