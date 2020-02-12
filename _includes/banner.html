@@ -19,7 +19,7 @@
               {% assign sorted_publications = site.publications | sort: 'year' %}
             {% for publication in sorted_publications reversed %}
             {% if publication.personal %}
-	          {% elsif publication.year > 2017 %} <!-- and publication.type == "paper" -->
+	          {% elsif publication.year > 2018 %} <!-- and publication.type == "paper" -->
             <li>
               <div style="padding-right: 1.5em;"><a href="{{ site.baseurl }}{{ publication.url }}">{{ publication.title }}</a></div>
               <div style="margin-bottom: 5px;">
