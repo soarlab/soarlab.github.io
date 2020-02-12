@@ -23,5 +23,6 @@ twitter:
 cv:
 ---
 
-I am an undergraduate student in the School of Computing at the University of Utah working on the SMACK software verifier.
+I am an undergraduate student in the School of Computing at the University of
+Utah working on the SMACK software verifier.
 
