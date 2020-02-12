@@ -25,5 +25,5 @@ cv:
 ---
 
 I am a non-student researcher in the School of Computing at the University of
-Utah working on the SMACK software verifier.
+Utah working on using machine learning to speed up the SMACK software verifier.
 
