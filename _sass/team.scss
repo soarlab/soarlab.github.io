@@ -47,7 +47,7 @@
   @include span-columns(12);
   //margin: 3px 0 0 3px;
   //padding-top: 2px;
-  //padding-left: 10px;
+  padding-left: 20px;
   display: block;
   //border: 2px solid transparent;
   //min-height: 50px;
@@ -92,6 +92,7 @@
     @include media($small-display){
       @include span-columns(4)
     }
+    margin-left: 20px;
   }
   &.selected, &.highlighted {
     border: 2px solid $team-color;

@@ -19,6 +19,8 @@ layout: default
         {% elsif person.role == 'intern' %}
             {% assign ifintern = 'true' %}
         {% endif %}
+      {% else %}
+      	{% assign ifalumni = 'true' %}
       {% endif %}
     {% endfor %}
 	  
@@ -64,13 +66,11 @@ layout: default
       {% if ifintern == 'true' %}
         <p class="space">&nbsp;</p>
         <h1>Interns</h1>
-
         {% include person.html role="intern" %}
       {% endif %}
       
-      <p class="space-alumni">&nbsp;</p>
-
-      <!-- <h1>PhD Graduates</h1> <p class="person-list-block">-->
+     	<!-- <p class="space-alumni">&nbsp;</p>
+			<h1>PhD Graduates</h1> <p class="person-list-block">
       
       {% for p in site.persons %}
       {% if p.graduated and p.phd_graduate %}
@@ -80,20 +80,27 @@ layout: default
               <a href="{{ p.website }}">{{ name }}</a>{% else %}{{ name }}{% endif %}{% if p.graduated != "N" %}, {{ p.graduated }}{% endif %}
           </span>
       {% endif %}
-      {% endfor %}
+      {% endfor %} -->
 
-
-      <!-- <h1>Other Alumni</h1> <p class="person-list-block">-->
+      <p class="space">&nbsp;</p>
+      <h1>Alumni</h1>
+      <p class="person-list-block">
       
-      {% for p in site.persons %}
+      {% assign sorted = site.persons | sort: 'graduated' | reverse %}
+      {% for p in sorted %}
         {% if p.graduated %}
           {% if p.phd_graduate %}
-          {% else %}
-        {% capture name %}{{ p.first_name }} {{ p.last_name }}{% endcapture %}
-          <span class="alumni">
+        	{% else %}
+        		{% capture name %}{{ p.first_name }} {{ p.last_name }}{% endcapture %}
+          <p class="alumni">
               {% if p.website %}
-              <a href="{{ p.website }}">{{ name }}</a>{% else %}{{ name }}{% endif %}{% if p.graduated != "N" %}, {{ p.graduated }}{% endif %}
-          </span>
+              	<a href="{{ p.website }}">{{ name }}</a>
+              {% else %}
+              	{{ name }}
+              {% endif %}
+              	{% if p.graduated != "N" %}, {{ p.graduated }}
+              {% endif %}
+          </p>
           {% endif %}
         {% endif %}
       {% endfor %}

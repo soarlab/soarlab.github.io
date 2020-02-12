@@ -94,13 +94,14 @@ html {
   
 }
 
-.banner {	
+.banner {
+		@include span-columns(8 of 12);
     display: inline-block;
     clear: left;
     width:100%;
 		padding-top: 20px;
 		padding-bottom: 20px;
-		border-top: 4px solid #DDD;
+//		border-top: 4px solid #DDD;
 	img{
 		border: 1px solid $dark-blue;
 	}
@@ -108,7 +109,7 @@ html {
 	.home-image{
 	  display: inline-block;
     float: left;
-		@include span-columns(8 of 12);
+		@include span-columns(5 of 8);
     margin-right: 0;
 //	padding-bottom:50px;
 //	margin-bottom:250px;
@@ -164,9 +165,9 @@ html {
     }
 	}
 	#top-right-banner-image {
-		@include span-columns(4 of 12);
+		@include span-columns(3 of 8);
 		margin-right:0px;
-		padding-left:30px;
+		margin-left:20px;
 		//margin-top: -15px;
 	  
     @include media($medium-display) {
@@ -197,7 +198,7 @@ html {
 #people-div-main {
 	float:left;
 	margin-top: 20px;
- 	margin-bottom: 20px;
+// 	margin-bottom: 20px;
 }
 
 .team {
