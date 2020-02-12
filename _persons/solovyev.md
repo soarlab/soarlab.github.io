@@ -11,5 +11,5 @@ organization: University of Utah
 position: Postdoctoral Fellow
 website: https://sites.google.com/site/solovyevalexey
 interests: Software Verification, Floating-Points
-graduated: "PostDoc, 2014"
+graduated: "Postdoc, 2013-2015"
 ---
