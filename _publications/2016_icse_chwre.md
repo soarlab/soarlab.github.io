@@ -54,9 +54,9 @@ award:
 external-project:
 
 # The reference to the video entry
-video: 
+video:
 # The reference to the preview viedo entry
-preview-video: https://youtu.be/SPPSC1KdRzs
+#preview-video:
 
 # the preprint
 pdf: 2016_icse_chwre.pdf
@@ -65,6 +65,9 @@ supplement:
 
 # Extra supplements, such as talk slides, data sets, etc.
 supplements:
+- name: Demo Video
+  abslink: https://youtu.be/SPPSC1KdRzs
+  linksym: true
 #- name: General UpSet
 #  # use link instead of abslink if you want to link to the master directory
 #  abslink: http://vials.io/talk/
