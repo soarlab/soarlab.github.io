@@ -57,7 +57,7 @@ video:
 #preview-video:
 
 # the preprint
-pdf: 2014_hotos_nbrrb.pdf
+pdf: 2019_hotos_nbrrb.pdf
 # A supplement PDF
 supplement: 
 
