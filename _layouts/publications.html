@@ -3,18 +3,20 @@ layout: default
 ---
   <article class="publications-content">
 
-    <h1 onclick="myFunction('conferencepapers')">Conference Papers </h1>
-    <div id="conferencepapers" style="display:none">
+    <h1>Peer Reviewed Publications</h1>
     {% for publication in site.publications reversed %}
       {% if publication.personal %}
       {% elsif publication.type == "conference" %}
         {% include publication_list_entry.html %}
+      {% elsif publication.type == "journal" %}
+        {% include publication_list_entry.html %}
+      {% elsif publication.type == "workshop" %}
+        {% include publication_list_entry.html %}
       {% endif %}
     {% endfor %}
-    </div>
     
-    <h1 onclick="myFunction('journals')">Journals</h1>
-    <div id="journals" style="display:none">
+    <!-- <h1 onclick="myFunction('journals')">Other Publications</h1>
+    <div id="journals" style="display:block">
     {% for publication in site.publications reversed %}
       {% if publication.personal %}
       {% elsif publication.type == "journal" %}
@@ -31,17 +33,15 @@ layout: default
         {% include publication_list_entry.html %}
       {% endif %}
     {% endfor %}
-    </div>
+    </div> -->
 
-    <h1 onclick="myFunction('other')">Other</h1>
-    <div id="other" style="display:none">
+    <h1>Other Publications</h1>
     {% for publication in site.publications reversed %}
       {% if publication.personal %}
       {% elsif publication.type == "poster" %}
         {% include publication_list_entry.html %}
       {% endif %}
     {% endfor %}
-    </div>
     
     <div id="copyright">
 Copyright notice: This material is presented to ensure timely dissemination of scholarly and technical work. Copyright and all rights therein are retained by 		authors or by other copyright holders. All persons copying this information are expected to adhere to the terms and constraints invoked by each author’s copyright.

@@ -792,10 +792,6 @@ ul.post-list {
   @include span-columns(12);
 }
 
-.publications-content h1 {
-	cursor: pointer;
-}
-
 .publication-meta {
   @include page-meta();
 }
@@ -842,13 +838,9 @@ ul.post-list {
 		transform-origin: left top;
     float: left;
    	clear: left;
-    //padding-top: 20px;
-    //padding-bottom: 20px;
-}
-
-.publications-content h1:hover {
-	//font-size: 150%;
-	transform: scale(1.2); 
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 175%;
 }
 
 .paper-list-block{
