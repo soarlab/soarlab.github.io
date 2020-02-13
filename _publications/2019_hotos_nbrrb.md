@@ -13,7 +13,7 @@ shortname: HotOS 2019
 # add a 2:1 aspect ratio (e.g., width: 400px, height: 200px) to the folder /assets/images/papers/
 image: 2019_hotos_nbrrb.png
 # add a 2:1 aspect ratio teaser figure (e.g., width: 1200px, height: 600px) to the folder /assets/images/papers/
-image_large: 2014_hotos_nbrrb_teaser.png
+image_large: 2019_hotos_nbrrb_teaser.png
 
 # Authors in the "database" can be used with just the key (lastname). Others can be written properly.
 authors:
@@ -29,18 +29,18 @@ year: 2019
 # bibentry: article | inproceedings | phdthesis | book
 bibentry: inproceedings
 bib:
-  title: "RedLeaf: Towards An Operating System for Safe and Verified Firmware",
-  year: 2019,
-  isbn: 9781450367271,
-  publisher: Association for Computing Machinery,
-  address: New York, NY, USA,
-  url: "https://doi.org/10.1145/3317550.3321449",
-  doi: 10.1145/3317550.3321449,
-  booktitle: Proceedings of the Workshop on Hot Topics in Operating Systems,
-  pages: 37–44,
-  numpages: 8,
-  location: Bertinoro, Italy,
-  series: HotOS ’19
+  title: "RedLeaf: Towards An Operating System for Safe and Verified Firmware"
+  year: 2019
+  isbn: 9781450367271
+  publisher: Association for Computing Machinery
+  address: New York, NY, USA
+  url: "https://doi.org/10.1145/3317550.3321449"
+  doi: 10.1145/3317550.3321449
+  booktitle: Proceedings of the Workshop on Hot Topics in Operating Systems
+  pages: 37–44
+  numpages: 8
+  location: Bertinoro, Italy
+  series: HotOS '19
 
 # Add things like "Best Paper Award at InfoVis 2099, selected out of 4000 submissions"
 award:
