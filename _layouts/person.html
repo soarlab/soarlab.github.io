@@ -146,10 +146,10 @@ layout: default
 
         <h2 id="publications">Publications</h2>
 
-        {% if hasjournal == "true" %}
-        <h3>Preprints</h3>
+        {% if hasconference == "true" or hasjournal == "true" or hasworkshop == "true" %}
+        <h3>Peer-reviewed Publications</h3>
             {% for publication in site.publications reversed %}
-                {% if publication.type == "journal" %}
+                {% if publication.type == "journal" or publication.type == "conference" or publication.type == "workshop" %}
                     {% for author in publication.authors %}
                         {% if author == page.key %}
                             {% include publication_list_entry.html %}
@@ -157,32 +157,6 @@ layout: default
                     {% endfor %}
                 {% endif %}
             {% endfor %}
-        {% endif %}
-
-        {% if hasconference == "true" %}
-        <h3>Peer-reviewed Journal and Conference Publications</h3>
-        {% for publication in site.publications reversed %}
-        {% if publication.type == "conference" %}
-        {% for author in publication.authors %}
-        {% if author == page.key %}
-        {% include publication_list_entry.html %}
-        {% endif %}
-        {% endfor %}
-        {% endif %}
-        {% endfor %}
-        {% endif %}
-
-        {% if hasworkshop == "true" %}
-        <h3>Commentary</h3>
-        {% for publication in site.publications reversed %}
-        {% if publication.type == "workshop" %}
-        {% for author in publication.authors %}
-        {% if author == page.key %}
-        {% include publication_list_entry.html %}
-        {% endif %}
-        {% endfor %}
-        {% endif %}
-        {% endfor %}
         {% endif %}
 
         {% if hasthesis == "true" %}
