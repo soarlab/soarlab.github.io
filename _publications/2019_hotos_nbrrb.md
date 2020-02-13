@@ -29,18 +29,18 @@ year: 2019
 # bibentry: article | inproceedings | phdthesis | book
 bibentry: inproceedings
 bib:
-  title: "RedLeaf: Towards An Operating System for Safe and Verified Firmware"
-  year: 2019
-  isbn: 9781450367271
-  publisher: Association for Computing Machinery
-  address: New York, NY, USA
-  url: "https://doi.org/10.1145/3317550.3321449"
+  booktitle: Proceedings of the 17th Workshop on Hot Topics in Operating Systems (HotOS)
+  series:
+  volume:
+  publisher: ACM
+  editor:
+  pages: 37--44
   doi: 10.1145/3317550.3321449
-  booktitle: Proceedings of the Workshop on Hot Topics in Operating Systems
-  pages: 37–44
-  numpages: 8
-  location: Bertinoro, Italy
-  series: HotOS '19
+  address:
+  url:
+  number:
+  month:
+  note:
 
 # Add things like "Best Paper Award at InfoVis 2099, selected out of 4000 submissions"
 award:
@@ -59,7 +59,7 @@ video:
 # the preprint
 pdf: 2019_hotos_nbrrb.pdf
 # A supplement PDF
-supplement: 
+supplement:
 
 # Extra supplements, such as talk slides, data sets, etc.
 supplements:
@@ -73,11 +73,19 @@ supplements:
 code:
 
 # Link to an official preprint server
-preprint_server: 
-#https://doi.org/10.1145/3317550.3321449
+preprint_server:
+#https://doi.org/10.1101/128579
 
 abstract: "<p>
-RedLeaf is a new operating system being developed from scratch to utilize formal verification for implementing provably secure firmware. RedLeaf is developed in a safe language, Rust, and relies on automated reasoning using satisfiability modulo theories (SMT) solvers for formal verification. RedLeaf builds on two premises: (1) Rust’s linear type system enables practical language safety even for systems with tightest performance and resource budgets (e.g., firmware), and (2) a combination of SMT-based reasoning and pointer discipline enforced by linear types provides a unique way to automate and simplify verification effort scaling it to the size of a small OS kernel.
+RedLeaf is a new operating system being developed from scratch to utilize
+formal verification for implementing provably secure firmware. RedLeaf is
+developed in a safe language, Rust, and relies on automated reasoning using
+satisfiability modulo theories (SMT) solvers for formal verification. RedLeaf
+builds on two premises: (1) Rust’s linear type system enables practical
+language safety even for systems with tightest performance and resource budgets
+(e.g., firmware), and (2) a combination of SMT-based reasoning and pointer
+discipline enforced by linear types provides a unique way to automate and
+simplify verification effort scaling it to the size of a small OS kernel.
 </p>"
 
 # After the --- you can put information that you want to appear on the website
@@ -86,5 +94,7 @@ RedLeaf is a new operating system being developed from scratch to utilize formal
 ---
 ### Acknowledgements
 
-This material is partially based upon work supported by Intel and the National Science Foundation under grants number 1837127 and 1837051.
+We thank the anonymous HotOS reviewers.  This material is partially based upon
+work supported by Intel and the National Science Foundation under grants number
+1837127 and 1837051.
 

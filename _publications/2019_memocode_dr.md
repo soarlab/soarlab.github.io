@@ -7,7 +7,6 @@ key: 2019_memocode_dr
 
 # conference | journal | poster | workshop
 type: conference
-redirect_from:
 
 # The shortname is used for auto-generated titles
 shortname: MEMOCODE 2019
@@ -58,7 +57,7 @@ video:
 # the preprint
 pdf: 2019_memocode_dr.pdf
 # A supplement PDF
-supplement: 
+supplement:
 
 # Extra supplements, such as talk slides, data sets, etc.
 supplements:
@@ -69,10 +68,10 @@ supplements:
 #  linksym: true
 
 # Link to the repository where the code is hosted
-code: 
+code:
 
 # Link to an official preprint server
-preprint_server: 
+preprint_server:
 #https://doi.org/10.1101/128579
 
 abstract: "<p>

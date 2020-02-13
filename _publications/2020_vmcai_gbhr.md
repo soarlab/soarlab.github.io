@@ -7,7 +7,6 @@ key: 2020_vmcai_gbhr
 
 # conference | journal | poster | workshop
 type: conference
-redirect_from:
 
 # The shortname is used for auto-generated titles
 shortname: VMCAI 2020
