@@ -3,7 +3,7 @@
 layout: person
 first_name: Thanh Son
 last_name: Nguyen
-key: thanhson
+key: nguyen
 permalink: /team/thanhson/
 # faculty | phdstudent | phd_rotation | postdoc | msstudent | collaborator
 role: phdstudent
