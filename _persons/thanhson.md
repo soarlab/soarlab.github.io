@@ -4,14 +4,14 @@ layout: person
 first_name: Thanh Son
 last_name: Nguyen
 key: nguyen
-permalink: /team/thanhson/
+permalink: /team/nguyen/
 # faculty | phdstudent | phd_rotation | postdoc | msstudent | collaborator
 role: phdstudent
 email: thanhson@cs.utah.edu
 image: /assets/images/people/thanhson.jpg
 organization: University of Utah
 position: PhD Student
-website: /team/thanhson
+website: /team/nguyen
 interests: Software Verification, Floating-Points
 graduated:
 
