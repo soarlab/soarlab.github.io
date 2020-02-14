@@ -1,7 +1,7 @@
 ---
 # use person if you want to have a personal website created
 layout: person
-first_name: Marek S.
+first_name: Marek
 last_name: Baranowski
 key: baranowski
 permalink: /team/baranowski/
