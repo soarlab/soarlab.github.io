@@ -8,7 +8,7 @@ permalink: /team/nguyen/
 # faculty | phdstudent | phd_rotation | postdoc | msstudent | collaborator
 role: phdstudent
 email: thanhson@cs.utah.edu
-image: /assets/images/people/thanhson.jpg
+image: /assets/images/people/nguyen.jpg
 organization: University of Utah
 position: PhD Student
 website: /team/nguyen
