@@ -19,7 +19,7 @@ graduated: "MS, 2014"
 
 gs:
 github:
-twitter: https://twitter.com/Arvind_Haran
+twitter: Arvind_Haran
 cv:
 ---
 
