@@ -10,7 +10,7 @@ email: haran@cs.utah.edu
 image: /assets/images/people/haran.jpg
 organization: University of Utah
 position: MS Student
-website: http://www.cs.utah.edu/~haran
+website: /team/haran
 interests: Software Verification, Software Resilience, Approximate Computing
 graduated: "MS, 2014"
 
