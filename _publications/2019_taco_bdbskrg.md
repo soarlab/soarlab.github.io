@@ -36,7 +36,7 @@ bib:
   volume: 16
   publisher: ACM
   editor:
-  pages: 2:1--2:39
+  pages:
   doi: 10.1145/3369381
   address:
   url:
