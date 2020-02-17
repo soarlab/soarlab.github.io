@@ -32,7 +32,7 @@ bib:
     Automated Software Engineering (ASE)
   series:
   volume:
-  publisher: IEEE Press
+  publisher: IEEE Computer Society
   editor:
   pages: 166--177
   doi: 10.1109/ASE.2015.30
