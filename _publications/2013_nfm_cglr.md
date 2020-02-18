@@ -2,7 +2,7 @@
 layout: publication
 # The quotes make the : possible, otherwise you can do it without quotes
 title: "Formal Analysis of GPU Programs with Atomics via Conflict-Directed Delay-Bounding"
-#YYYY_CONFSHORTNAME_PAPERSHORTNAME
+# YYYY_CONFSHORTNAME_PAPERSHORTNAME
 key: 2013_nfm_cglr
 
 # conference | journal | poster | workshop
@@ -13,14 +13,11 @@ redirect_from: /2013/03/formal-analysis-of-gpu-programs-with-atomics-via-conflic
 shortname: NFM 2013
 # add a 2:1 aspect ratio (e.g., width: 400px, height: 200px) to the folder /assets/images/papers/
 image: 2013_nfm_cglr.png
-# 2018_tvcg_lineage.png
 # add a 2:1 aspect ratio teaser figure (e.g., width: 1200px, height: 600px) to the folder /assets/images/papers/
 image_large: 2013_nfm_cglr_teaser.png
-#2018_tvcg_lineage_teaser.png
 
 # Authors in the "database" can be used with just the key (lastname). Others can be written properly.
 authors:
-
 - chiang
 - Ganesh Gopalakrishnan
 - Guodong Li
@@ -29,7 +26,7 @@ authors:
 journal-short: NFM
 year: 2013
 
-#bibentry: article | inproceedings | phdthesis | book
+# bibentry: article | inproceedings | phdthesis | book
 bibentry: inproceedings
 bib:
   booktitle: Proceedings of the 5th NASA Formal Methods Symposium (NFM)
@@ -52,7 +49,7 @@ award:
 # project: upset
 
 # Use this if you have an external project website
-external-project: 
+external-project:
 
 # The reference to the video entry
 video:
@@ -62,7 +59,7 @@ video:
 # the preprint
 pdf: 2013_nfm_cglr.pdf
 # A supplement PDF
-supplement: 
+supplement:
 
 # Extra supplements, such as talk slides, data sets, etc.
 supplements:
@@ -73,11 +70,10 @@ supplements:
 #  linksym: true
 
 # Link to the repository where the code is hosted
-code: 
-#https://github.com/smackers/smack
+code:
 
 # Link to an official preprint server
-preprint_server: 
+preprint_server:
 #https://doi.org/10.1101/128579
 
 abstract: "<p>
@@ -101,3 +97,4 @@ GPU benchmarks, with encouraging results.
 ### Acknowledgements
 
 Supported by NSF CCF 1255776, OCI 1148127, and the Microsoft SEIF Award.
+
