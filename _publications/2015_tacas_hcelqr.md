@@ -1,49 +1,49 @@
 ---
 layout: publication
 # The quotes make the : possible, otherwise you can do it without quotes
-title: "FailAmp: Relativization Transformation for Soft Error Detection in Structured Address Generation"
+title: "SMACK+Corral: A Modular Verifier (Competition Contribution)"
 # YYYY_CONFSHORTNAME_PAPERSHORTNAME
-key: 2019_taco_bdbskrg
+key: 2015_tacas_hcelqr
 
 # conference | journal | poster | workshop
-type: journal
+type: conference
+redirect_from: /2015/01/smackcorral-a-modular-verifier-competition-contribution
 
 # The shortname is used for auto-generated titles
-shortname: TACO 2019
+shortname: TACAS 2015
 # add a 2:1 aspect ratio (e.g., width: 400px, height: 200px) to the folder /assets/images/papers/
-image: 2019_taco_bdbskrg.png
+image: 2015_tacas_hcelqr.png
 # add a 2:1 aspect ratio teaser figure (e.g., width: 1200px, height: 600px) to the folder /assets/images/papers/
-image_large: 2019_taco_bdbskrg_teaser.png
+image_large: 2015_tacas_hcelqr_teaser.png
 
 # Authors in the "database" can be used with just the key (lastname). Others can be written properly.
 authors:
-- Ian Briggs
-- Arnab Das
-- baranowski
-- Vishal Sharma
-- Sriram Krishnamoorthy
+- haran
+- carter
+- Michael Emmi
+- Akash Lal
+- Shaz Qadeer
 - rakamaric
-- Ganesh Gopalakrishnan
 
-journal-short: TACO
-year: 2019
+journal-short: TACAS
+year: 2015
 
 # bibentry: article | inproceedings | phdthesis | book
-bibentry: article
+bibentry: inproceedings
 bib:
-  journal: ACM Transactions on Architecture and Code Optimimization (TACO)
-  series:
-  volume: 16
-  publisher: ACM
-  editor:
-  pages:
-  doi: 10.1145/3369381
+  booktitle: Proceedings of the 21st International Conference on Tools and
+    Algorithms for the Construction and Analysis of Systems (TACAS)
+  series: Lecture Notes in Computer Science
+  volume: 9035
+  publisher: Springer
+  editor: Christel Baier and Cesare Tinelli
+  pages: 450--453
+  doi: 10.1007/978-3-662-46681-0_42
   address:
   url:
-  number: 4
-  month: dec
+  number:
+  month:
   note:
-  issue_date: January 2020
 
 # Add things like "Best Paper Award at InfoVis 2099, selected out of 4000 submissions"
 award:
@@ -60,7 +60,7 @@ video:
 #preview-video:
 
 # the preprint
-pdf: 2019_taco_bdbskrg.pdf
+pdf: 2015_tacas_hcelqr.pdf
 # A supplement PDF
 supplement:
 
@@ -73,22 +73,16 @@ supplements:
 #  linksym: true
 
 # Link to the repository where the code is hosted
-code: https://gitlab.flux.utah.edu/ianbriggsutah/failamp
+code: https://github.com/smackers/smack
 
 # Link to an official preprint server
-preprint_server:
+preprint_server: 
 #https://doi.org/10.1101/128579
 
 abstract: "<p>
-We present FailAmp, a novel LLVM program transformation algorithm that makes
-programs employing structured index calculations more robust against
-soft-errors. Without FailAmp, an offset error can go undetected; with FailAmp,
-all subsequent offsets are relativized, building on the faulty one. FailAmp can
-exploit ISAs such as ARM to further reduce overheads. We verify correctness
-properties of FailAMP using an SMT solver, and present a thorough evaluation
-using many HPC benchmarks under a fault injection campaign. FailAmp provides
-full soft-error detection for address calculation while incurring an average
-overhead of around 5%.
+SMACK and Corral are two components of a modular toolchain for verifying C
+programs. Together they exploit state-of-the-art compiler technologies and
+theorem provers to simplify and dispatch verification conditions.
 </p>"
 
 # After the --- you can put information that you want to appear on the website
@@ -97,9 +91,6 @@ overhead of around 5%.
 ---
 ### Acknowledgements
 
-This research was supported in part by NSF Awards 1817073 and 1704715, and DOE
-Contract DE-SC0014096. This material is based upon work supported by the U.S.
-Department of Energy, Office of Science, Office of Advanced Scientific
-Computing Research under Award Number 66905. Pacific Northwest National
-Laboratory is operated by Battelle for DOE under Contract DE-AC05-76RL01830.
+Partially supported by NSF award CCF 1346756 and a Microsoft Research SEIF
+award.
 

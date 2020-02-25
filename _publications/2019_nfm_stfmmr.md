@@ -31,7 +31,7 @@ year: 2019
 # bibentry: article | inproceedings | phdthesis | book
 bibentry: inproceedings
 bib:
-  booktitle: Proceedings of the 11th Annual NASA Formal Methods Symposium (NFM)
+  booktitle: Proceedings of the 11th NASA Formal Methods Symposium (NFM)
   series: Lecture Notes in Computer Science
   volume: 11460
   publisher: Springer

@@ -10,8 +10,8 @@ youtube_username:
 facebook_page:
 safe: false
 lsi: false
-google_analytics: #"'UA-69348306-1'"
-use_analytics: false
+google_analytics: "'UA-42675163-1'"
+use_analytics: true
 
 paper_content_url: ["/papers/"]
 
