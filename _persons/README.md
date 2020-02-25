@@ -39,7 +39,7 @@ graduated:
 
 gs: https://scholar.google.com/citations?user=Ui1q1jkAAAAJ
 gh: https://github.com/zvonimir
-twitter: "@rakamaric"
+twitter: rakamaric
 cv: https://zvonimir.info/download/zvonimir_rakamaric-cv.pdf
 
 # flag used to determine whether to show teaching

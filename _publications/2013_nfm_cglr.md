@@ -1,49 +1,46 @@
 ---
 layout: publication
 # The quotes make the : possible, otherwise you can do it without quotes
-title: "FailAmp: Relativization Transformation for Soft Error Detection in Structured Address Generation"
+title: "Formal Analysis of GPU Programs with Atomics via Conflict-Directed Delay-Bounding"
 # YYYY_CONFSHORTNAME_PAPERSHORTNAME
-key: 2019_taco_bdbskrg
+key: 2013_nfm_cglr
 
 # conference | journal | poster | workshop
-type: journal
+type: conference
+redirect_from: /2013/03/formal-analysis-of-gpu-programs-with-atomics-via-conflict-directed-delay-bounding
 
 # The shortname is used for auto-generated titles
-shortname: TACO 2019
+shortname: NFM 2013
 # add a 2:1 aspect ratio (e.g., width: 400px, height: 200px) to the folder /assets/images/papers/
-image: 2019_taco_bdbskrg.png
+image: 2013_nfm_cglr.png
 # add a 2:1 aspect ratio teaser figure (e.g., width: 1200px, height: 600px) to the folder /assets/images/papers/
-image_large: 2019_taco_bdbskrg_teaser.png
+image_large: 2013_nfm_cglr_teaser.png
 
 # Authors in the "database" can be used with just the key (lastname). Others can be written properly.
 authors:
-- Ian Briggs
-- Arnab Das
-- baranowski
-- Vishal Sharma
-- Sriram Krishnamoorthy
-- rakamaric
+- chiang
 - Ganesh Gopalakrishnan
+- Guodong Li
+- rakamaric
 
-journal-short: TACO
-year: 2019
+journal-short: NFM
+year: 2013
 
 # bibentry: article | inproceedings | phdthesis | book
-bibentry: article
+bibentry: inproceedings
 bib:
-  journal: ACM Transactions on Architecture and Code Optimimization (TACO)
-  series:
-  volume: 16
-  publisher: ACM
-  editor:
-  pages:
-  doi: 10.1145/3369381
+  booktitle: Proceedings of the 5th NASA Formal Methods Symposium (NFM)
+  series: Lecture Notes in Computer Science
+  volume: 7871
+  publisher: Springer
+  editor: Guillaume Brat and Neha Rungta and Arnaud Venet
+  pages: 213--228
+  doi: 10.1007/978-3-642-38088-4_15
   address:
-  url:
-  number: 4
-  month: dec
+  url: 
+  number: 
+  month: 
   note:
-  issue_date: January 2020
 
 # Add things like "Best Paper Award at InfoVis 2099, selected out of 4000 submissions"
 award:
@@ -60,7 +57,7 @@ video:
 #preview-video:
 
 # the preprint
-pdf: 2019_taco_bdbskrg.pdf
+pdf: 2013_nfm_cglr.pdf
 # A supplement PDF
 supplement:
 
@@ -73,22 +70,24 @@ supplements:
 #  linksym: true
 
 # Link to the repository where the code is hosted
-code: https://gitlab.flux.utah.edu/ianbriggsutah/failamp
+code:
 
 # Link to an official preprint server
 preprint_server:
 #https://doi.org/10.1101/128579
 
 abstract: "<p>
-We present FailAmp, a novel LLVM program transformation algorithm that makes
-programs employing structured index calculations more robust against
-soft-errors. Without FailAmp, an offset error can go undetected; with FailAmp,
-all subsequent offsets are relativized, building on the faulty one. FailAmp can
-exploit ISAs such as ARM to further reduce overheads. We verify correctness
-properties of FailAMP using an SMT solver, and present a thorough evaluation
-using many HPC benchmarks under a fault injection campaign. FailAmp provides
-full soft-error detection for address calculation while incurring an average
-overhead of around 5%.
+GPU based computing has made significant strides in recent years. Unfortunately,
+GPU program optimizations can introduce subtle concurrency errors, and so
+incisive formal bug-hunting methods are essential. This paper presents a new
+formal bug-hunting method for GPU programs that combine barriers and atomics. We
+present an algorithm called Conflict-directed Delay-bounded scheduling algorithm
+(CD) that exploits the occurrence of conflicts among atomic synchronization
+commands to trigger the generation of alternate schedules; these alternate
+schedules are executed in a delay-bounded manner. We formally describe CD, and
+present two correctness checking methods, one based on final state comparison,
+and the other on user assertions. We evaluate our implementation on realistic
+GPU benchmarks, with encouraging results.
 </p>"
 
 # After the --- you can put information that you want to appear on the website
@@ -97,9 +96,5 @@ overhead of around 5%.
 ---
 ### Acknowledgements
 
-This research was supported in part by NSF Awards 1817073 and 1704715, and DOE
-Contract DE-SC0014096. This material is based upon work supported by the U.S.
-Department of Energy, Office of Science, Office of Advanced Scientific
-Computing Research under Award Number 66905. Pacific Northwest National
-Laboratory is operated by Battelle for DOE under Contract DE-AC05-76RL01830.
+Supported by NSF CCF 1255776, OCI 1148127, and the Microsoft SEIF Award.
 
