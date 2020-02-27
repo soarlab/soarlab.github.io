@@ -2,7 +2,7 @@
 layout: publication
 # The quotes make the : possible, otherwise you can do it without quotes
 title: "Towards Formal Approaches to System Resilience"
-key: 2013_PRDC_shrg
+key: 2013_prdc_shrg
 
 #YYYY_CONFSHORTNAME_PAPERSHORTNAME
 # paper | preprint | poster
@@ -15,7 +15,7 @@ shortname: 2013_prdc_shrg
 image: 2013_prdc_shrg.png
 # 2018_tvcg_lineage.png
 # add a 2:1 aspect ratio teaser figure (e.g., width: 1200px, height: 600px) to the folder /assets/images/papers/
-image_large: 2013_prdc_shrg.png
+image_large: 2013_prdc_shrg_teaser.png
 #2018_tvcg_lineage_teaser.png
 
 # Authors in the "database" can be used with just the key (lastname). Others can be written properly.
@@ -38,7 +38,7 @@ bib:
   editor:
   publisher:
   address: 
-  doi: 
+  doi: 10.1109/PRDC.2013.14
   url: 
   volume: 
   number: 
@@ -62,7 +62,7 @@ video:
 #preview-video:
 
 # the prerint
-pdf: 2014_PPoPP_BGRT.pdf
+pdf: 2013_prdc_shrg.pdf
 # A supplement PDF
 supplement: 
 #2018_tvcg_lineage_supplement.pdf
