@@ -62,7 +62,7 @@ video:
 # the preprint
 pdf: 2017_popl_cbbsgr.pdf
 # A supplement PDF
-supplement: 
+supplement:
 
 # Extra supplements, such as talk slides, data sets, etc.
 supplements:
@@ -76,7 +76,7 @@ supplements:
 code: https://github.com/soarlab/FPTuner
 
 # Link to an official preprint server
-preprint_server: 
+preprint_server:
 #https://doi.org/10.1101/128579
 
 abstract: "<p>
