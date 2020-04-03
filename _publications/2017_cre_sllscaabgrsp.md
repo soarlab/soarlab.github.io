@@ -57,7 +57,7 @@ award:
 # project: upset
 
 # Use this if you have an external project website
-external-project: https://pruners.github.io
+external-project:
 
 # The reference to the video entry
 video:
