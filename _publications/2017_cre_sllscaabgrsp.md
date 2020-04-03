@@ -1,53 +1,55 @@
 ---
 layout: publication
 # The quotes make the : possible, otherwise you can do it without quotes
-title: "Archer: Effectively Spotting Data Races in Large OpenMP Applications"
+title: "PRUNERS: Providing Reproducibility for Uncovering Non-Deterministic Errors in Runs on Supercomputers"
 # YYYY_CONFSHORTNAME_PAPERSHORTNAME
-key: 2016_ipdps_agralslpm
+key: 2017_cre_sllscaabgrsp
 
 # conference | journal | poster | workshop
-type: conference
-redirect_from: /2016/02/ipdps2016-agralslpm
+type: workshop
+redirect_from:
 
 # The shortname is used for auto-generated titles
-shortname: IPDPS 2016
+shortname: CRE 2017
 # add a 2:1 aspect ratio (e.g., width: 400px, height: 200px) to the folder /assets/images/papers/
-image: 2016_ipdps_agralslpm.png
+image: 2017_cre_sllscaabgrsp.png
 # add a 2:1 aspect ratio teaser figure (e.g., width: 1200px, height: 600px) to the folder /assets/images/papers/
-image_large: 2016_ipdps_agralslpm_teaser.png
+image_large: 2017_cre_sllscaabgrsp_teaser.png
 
 # Authors in the "database" can be used with just the key (lastname). Others can be written properly.
 authors:
+- Kento Sato
+- Ignacio Laguna
+- Gregory L. Lee
+- Martin Schulz
+- Christopher M. Chambreau
+- Dong H. Ahn
 - atzeni
+- Michael Bentley
 - Ganesh Gopalakrishnan
 - rakamaric
-- Dong H. Ahn
-- Ignacio Laguna
-- Martin Schulz
-- Gregory L. Lee
+- Geof Sawaya
 - Joachim Protze
-- Matthias S. Muller
 
-journal-short: IPDPS
-year: 2016
+journal-short: CRE
+year: 2017
 
 # bibentry: article | inproceedings | phdthesis | book
 bibentry: inproceedings
 bib:
-  booktitle: Proceedings of the 30th IEEE International Parallel and
-    Distributed Processing Symposium (IPDPS)
+  booktitle: Computational Reproducibility at Exascale Workshop (CRE)
   series:
   volume:
-  publisher: IEEE Computer Society
+  publisher:
   editor:
-  pages: 53--62
-  doi: 10.1109/IPDPS.2016.68
+  pages:
+  doi:
   address:
   url:
   number:
   month:
-  note:
- 
+  note: Extended abstract
+
 # Add things like "Best Paper Award at InfoVis 2099, selected out of 4000 submissions"
 award:
 
@@ -55,7 +57,7 @@ award:
 # project: upset
 
 # Use this if you have an external project website
-external-project:
+external-project: https://pruners.github.io
 
 # The reference to the video entry
 video:
@@ -63,7 +65,7 @@ video:
 #preview-video:
 
 # the preprint
-pdf: 2016_ipdps_agralslpm.pdf
+pdf: 2017_cre_sllscaabgrsp.pdf
 # A supplement PDF
 supplement:
 
@@ -76,24 +78,21 @@ supplements:
 #  linksym: true
 
 # Link to the repository where the code is hosted
-code: https://github.com/PRUNERS/archer
+code:
 
 # Link to an official preprint server
 preprint_server:
 #https://doi.org/10.1101/128579
 
 abstract: "<p>
-OpenMP plays a growing role as a portable programming model to harness on-node
-parallelism; yet, existing data race checkers for OpenMP have high overheads
-and generate many false positives. In this paper, we propose the first OpenMP
-data race checker, Archer, that achieves high accuracy, low overheads on large
-applications, and portability. Archer incorporates scalable happens-before
-tracking, exploits structured parallelism via combined static and dynamic
-analysis, and modularly interfaces with OpenMP runtimes. Archer significantly
-outperforms TSan and Intel Inspector XE, while providing the same or better
-precision. It has helped detect critical data races in the Hypre library that
-is central to many projects at Lawrence Livermore National Laboratory and
-elsewhere.
+Large scientific simulations must be able to achieve the full-system potential
+of supercomputers. When they tap into high-performance features, however, a
+phenomenon known as non-determinism may be introduced in their program
+execution, which significantly hampers application development. PRUNERS is a
+new toolset to detect and remedy non-deterministic bugs and errors in large
+parallel applications. To show the capabilities of PRUNERS for large
+application development, we also demonstrate their early usage on real-world,
+production applications.
 </p>"
 
 # After the --- you can put information that you want to appear on the website
@@ -102,9 +101,6 @@ elsewhere.
 ---
 ### Acknowledgements
 
-We would like to thank the anonymous reviewers for their constructive comments.
-This work was performed under the auspices of the U.S. Department of Energy by
-Lawrence Livermore National Laboratory under Contract DE-AC52-07NA27344
-(LLNL-PROC-679754). Support is gratefully acknowledged from the National
-Science Foundation under grants ACI-1535032 and CCF-7298529.
+This work was performed under the auspices of the U.S.  Department of Energy by
+LLNL under contract DE-AC52-07NA27344 (LLNL-CONF-737603).
 

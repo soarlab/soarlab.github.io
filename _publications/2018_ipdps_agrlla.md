@@ -22,7 +22,7 @@ authors:
 - Ganesh Gopalakrishnan
 - rakamaric
 - Ignacio Laguna
-- Greg L. Lee
+- Gregory L. Lee
 - Dong H. Ahn
 
 journal-short: IPDPS
