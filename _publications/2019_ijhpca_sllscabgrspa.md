@@ -19,17 +19,8 @@ image_large: 2019_ijhpca_sllscabgrspa_teaser.png
 # Authors in the "database" can be used with just the key (lastname). Others can be written properly.
 authors:
 - Kento Sato
-- Ignacio Laguna
-- Gregory L. Lee
-- Martin Schulz
-- Christopher M. Chambreau
 - atzeni
-- Michael Bentley
-- Ganesh Gopalakrishnan
 - rakamaric
-- Geof Sawaya
-- Joachim Protze
-- Dong H. Ahn
 
 journal-short: IJHPCA
 year: 2019
