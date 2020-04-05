@@ -761,6 +761,7 @@ ul.post-list {
 
 .publication {
     display: inline-block;
+    max-width: 100%;
 }
 
 .publication-content-aside {
@@ -1178,17 +1179,16 @@ iframe {
 .publication-content-main {
 	.citation{
 		p{
-		.paper-title{
-			font-weight:700;
-			font-family:$condensed-font-family;
-			color:$blue2;
+			.paper-title{
+				font-weight:700;
+				font-family:$condensed-font-family;
+				color:$blue2;
+			}
 			
+			.paper-citation{
+				font-family:$italicized-font-family;
+			}
 		}
-		.paper-citation{
-			font-family:$italicized-font-family;
-		}
-	}
-		
 	}
 	i{
 		color:$blue2;
