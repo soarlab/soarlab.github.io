@@ -40,6 +40,8 @@ layout: default
       {% if publication.personal %}
       {% elsif publication.type == "poster" %}
         {% include publication_list_entry.html %}
+      {% elsif publication.type == "thesis" %}
+        {% include publication_list_entry.html %}
       {% endif %}
     {% endfor %}
     
