@@ -49,7 +49,7 @@ code. This thesis describes a scalable, yet precise, memory model that offers
 on-demand precision only when necessary.</p>
 
 <p>Second, modularity is the key to scalability, but it often comes with a
-price — a user must manually provide module specifications, making the
+price - a user must manually provide module specifications, making the
 verification process more tedious. This thesis proposes a light-weight
 technique for automatically inferring an important family of specifications to
 make the verification process more automatic.</p>
