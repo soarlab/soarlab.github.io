@@ -63,9 +63,6 @@ supplement:
 
 # Extra supplements, such as talk slides, data sets, etc.
 supplements:
-- name: PRUNERS Project Website
-  abslink: https://pruners.github.io
-  linksym: true
 #- name: General UpSet
 #  # use link instead of abslink if you want to link to the master directory
 #  abslink: http://vials.io/talk/
