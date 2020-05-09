@@ -1,41 +1,42 @@
 ---
 layout: publication
 # The quotes make the : possible, otherwise you can do it without quotes
-title: "RedLeaf: Towards An Operating System for Safe and Verified Firmware"
+title: "System Programming in Rust: Beyond Safety"
 # YYYY_CONFSHORTNAME_PAPERSHORTNAME
-key: 2019_hotos_nbrrb
+key: 2017_hotos_bbbprr
 
 # conference | journal | poster | workshop
 type: workshop
 
 # The shortname is used for auto-generated titles
-shortname: HotOS 2019
+shortname: HotOS 2017
 # add a 2:1 aspect ratio (e.g., width: 400px, height: 200px) to the folder /assets/images/papers/
-image: 2019_hotos_nbrrb.png
+image: 2017_hotos_bbbprr.png
 # add a 2:1 aspect ratio teaser figure (e.g., width: 1200px, height: 600px) to the folder /assets/images/papers/
-image_large: 2019_hotos_nbrrb_teaser.png
+image_large: 2017_hotos_bbbprr_teaser.png
 
 # Authors in the "database" can be used with just the key (lastname). Others can be written properly.
 authors:
-- Vikram Narayanan
+- Abhiram Balasubramanian
 - baranowski
-- Leonid Ryzhyk
-- rakamaric
 - Anton Burtsev
+- Aurojit Panda
+- rakamaric
+- Leonid Ryzhyk
 
 journal-short: HotOS
-year: 2019
+year: 2017
 
 # bibentry: article | inproceedings | phdthesis | book
 bibentry: inproceedings
 bib:
-  booktitle: Proceedings of the 17th Workshop on Hot Topics in Operating Systems (HotOS)
+  booktitle: Proceedings of the 16th Workshop on Hot Topics in Operating Systems (HotOS)
   series:
   volume:
   publisher: ACM
   editor:
-  pages: 37--44
-  doi: 10.1145/3317550.3321449
+  pages: 156--161
+  doi: 10.1145/3139645.3139660
   address:
   url:
   number:
@@ -57,7 +58,7 @@ video:
 #preview-video:
 
 # the preprint
-pdf: 2019_hotos_nbrrb.pdf
+pdf: 2017_hotos_bbbprr.pdf
 # A supplement PDF
 supplement:
 
@@ -77,15 +78,19 @@ preprint_server:
 #https://doi.org/10.1101/128579
 
 abstract: "<p>
-RedLeaf is a new operating system being developed from scratch to utilize
-formal verification for implementing provably secure firmware. RedLeaf is
-developed in a safe language, Rust, and relies on automated reasoning using
-satisfiability modulo theories (SMT) solvers for formal verification. RedLeaf
-builds on two premises: (1) Rust's linear type system enables practical
-language safety even for systems with tightest performance and resource budgets
-(e.g., firmware), and (2) a combination of SMT-based reasoning and pointer
-discipline enforced by linear types provides a unique way to automate and
-simplify verification effort scaling it to the size of a small OS kernel.
+Rust is a new system programming language that offers a practical and safe
+alternative to C. Rust is unique in that it enforces safety without runtime
+overhead, most importantly, without the overhead of garbage collection. While
+zero-cost safety is remarkable on its own, we argue that the superpowers of
+Rust go beyond safety. In particular, Rust's linear type system enables
+capabilities that cannot be implemented efficiently in traditional languages,
+both safe and unsafe, and that dramatically improve security and reliability of
+system software. We show three examples of such capabilities: zero-copy
+software fault isolation, efficient static information flow analysis, and
+automatic checkpointing. While these capabilities have been in the spotlight of
+systems research for a long time, their practical use is hindered by high cost
+and complexity. We argue that with the adoption of Rust these mechanisms will
+become commoditized.
 </p>"
 
 # After the --- you can put information that you want to appear on the website
@@ -94,7 +99,7 @@ simplify verification effort scaling it to the size of a small OS kernel.
 ---
 ### Acknowledgements
 
-We thank the anonymous HotOS reviewers.  This material is partially based upon
-work supported by Intel and the National Science Foundation under grants number
-1837127 and 1837051.
+We thank the anonymous HotOS reviewers. This material is partially based upon
+work supported by the National Science Foundation under Grants No. 1319076 and
+No. 1527526.
 
