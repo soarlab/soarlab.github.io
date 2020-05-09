@@ -7,6 +7,7 @@ key: 2017_hotos_bbbprr
 
 # conference | journal | poster | workshop
 type: workshop
+redirect_from: /2017/06/hotos2017-bbbprr
 
 # The shortname is used for auto-generated titles
 shortname: HotOS 2017

@@ -1,42 +1,35 @@
 ---
 layout: publication
 # The quotes make the : possible, otherwise you can do it without quotes
-title: "PRUNERS: Providing Reproducibility for Uncovering Non-Deterministic Errors in Runs on Supercomputers"
+title: "Static Assertion Checking of Production Software with Angelic Verification"
 # YYYY_CONFSHORTNAME_PAPERSHORTNAME
-key: 2017_cre_sllscaabgrsp
+key: 2017_tapas_hllr
 
 # conference | journal | poster | workshop
 type: workshop
+redirect_from: /2017/09/tapas2017-hllr
 
 # The shortname is used for auto-generated titles
-shortname: CRE 2017
+shortname: TAPAS 2017
 # add a 2:1 aspect ratio (e.g., width: 400px, height: 200px) to the folder /assets/images/papers/
-image: 2017_cre_sllscaabgrsp.png
+image: 2017_tapas_hllr.png
 # add a 2:1 aspect ratio teaser figure (e.g., width: 1200px, height: 600px) to the folder /assets/images/papers/
-image_large: 2017_cre_sllscaabgrsp_teaser.png
+image_large: 2017_tapas_hllr_teaser.png
 
 # Authors in the "database" can be used with just the key (lastname). Others can be written properly.
 authors:
-- Kento Sato
-- Ignacio Laguna
-- Gregory L. Lee
-- Martin Schulz
-- Christopher M. Chambreau
-- Dong H. Ahn
-- atzeni
-- Michael Bentley
-- Ganesh Gopalakrishnan
+- he
+- Shuvendu Lahiri
+- Akash Lal
 - rakamaric
-- Geof Sawaya
-- Joachim Protze
 
-journal-short: CRE
+journal-short: TAPAS
 year: 2017
 
 # bibentry: article | inproceedings | phdthesis | book
 bibentry: inproceedings
 bib:
-  booktitle: Computational Reproducibility at Exascale Workshop (CRE)
+  booktitle: 8th Workshop on Tools for Automatic Program Analysis (TAPAS)
   series:
   volume:
   publisher:
@@ -64,7 +57,7 @@ video:
 #preview-video:
 
 # the preprint
-pdf: 2017_cre_sllscaabgrsp.pdf
+pdf: 2017_tapas_hllr.pdf
 # A supplement PDF
 supplement:
 
@@ -86,23 +79,21 @@ code:
 preprint_server:
 #https://doi.org/10.1101/128579
 
-abstract: "<p>
-Large scientific simulations must be able to achieve the full-system potential
-of supercomputers. When they tap into high-performance features, however, a
-phenomenon known as non-determinism may be introduced in their program
-execution, which significantly hampers application development. PRUNERS is a
-new toolset to detect and remedy non-deterministic bugs and errors in large
-parallel applications. To show the capabilities of PRUNERS for large
-application development, we also demonstrate their early usage on real-world,
-production applications.
-</p>"
+abstract: "
+<p>The ability to statically detect violations of assertions can add great
+value to developers. However, in spite of decades of progress in program
+verification, static assertion checking is far from being cost-effective for
+production software. The two main obstacles to finding high-quality defects are
+(a) false alarms due to under-constrained environment, and (b) finding
+violations to deeply nested procedures.</p>
 
-# After the --- you can put information that you want to appear on the website
-# using markdown formatting or HTML. A good example are acknowledgements, extra
-# references, an erratum, etc.
+<p>In this talk, we will describe our experience with the angelic verification
+(AV) tool for statically finding assertion violations in real-world software.
+The basic idea of AV is to pair an interprocedural assertion verifier with a
+framework for automatic inference of likely specifications on unknown values
+from the environment. We will summarize the approach, and will focus on design
+choices required to find high-quality violations of memory-safety violations
+with low false alarms.  We discuss some results on Microsoft codebases and open
+source software, and challenges ahead.</p>"
+
 ---
-### Acknowledgements
-
-This work was performed under the auspices of the U.S.  Department of Energy by
-LLNL under contract DE-AC52-07NA27344 (LLNL-CONF-737603).
-
