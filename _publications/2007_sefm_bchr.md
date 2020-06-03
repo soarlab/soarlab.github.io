@@ -80,7 +80,7 @@ preprint_server:
 abstract: "<p>
 We describe a simple and efficient algorithm for proving the termination of a
 class of loops with nonlinear assignments to variables. The method is based on
-divergence testing for each variable in the cone-of-influence of the loop’s
+divergence testing for each variable in the cone-of-influence of the loop's
 termination condition. The analysis allows us to automatically prove the
 termination of loops that cannot be handled using previous techniques. The
 paper closes with experimental results using short examples drawn from
