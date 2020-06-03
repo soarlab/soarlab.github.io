@@ -44,7 +44,7 @@ bib:
   note:
 
 # Add things like "Best Paper Award at InfoVis 2099, selected out of 4000 submissions"
-award:
+award: Invited for special section submission to Formal Aspects of Computing (FAC)
 
 # Use if this paper is linked to an internal project. This will link to the project site
 # project: upset
