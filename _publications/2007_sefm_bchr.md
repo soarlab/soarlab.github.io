@@ -65,7 +65,7 @@ supplement:
 # Extra supplements, such as talk slides, data sets, etc.
 supplements:
 - name: Journal Version
-  link: /publications/2012_fac_bchr
+  abslink: https://soarlab.org/publications/2012_fac_bchr
   linksym: true
 #- name: General UpSet
 #  # use link instead of abslink if you want to link to the master directory
