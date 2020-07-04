@@ -31,16 +31,16 @@ bibentry: inproceedings
 bib:
   booktitle: Proceedings of the 10th International Joint Conference on Automated Reasoning (IJCAR)
   series: Lecture Notes in Computer Science
-  volume:
+  volume: 12166
   publisher: Springer
   editor: Nicolas Peltier and Viorica Sofronie-Stokkermans
-  pages:
-  doi:
+  pages: 13--31
+  doi: 10.1007/978-3-030-51074-9_2
   address:
   url:
   number:
   month:
-  note: to appear
+  note:
 
 # Add things like "Best Paper Award at InfoVis 2099, selected out of 4000 submissions"
 award:
